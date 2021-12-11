@@ -14,16 +14,48 @@ body {
    font-size: 16px;
    line-height: 26px;
    color: #1F3F68;
+   letter-spacing: 0.05em;
+   opacity: 0.6;
 }
 .heading_1 {
     width: 510px;
     font-size: 64px;
     color: #1F3F68;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.button_top {
+    background: #5A98D0;
+    padding: 15px 50px;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.top_about_us {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/background_top.png);
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .text_1 {
     width: 425px;
-}
+    margin-bottom: 71px;
+  }
+
+
+
 .heading_2c {
     font-weight: 500;
     font-size: 44px;
@@ -58,20 +90,19 @@ body {
 }
 
 .top {
-    border: 3px solid red; 
-    margin-bottom: 20px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    height: 768px;
 }
 
 .top_section {
-    border: 3px solid purple; 
-    
-}
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}  
+  
 
 .header {
-    border: 3px solid green;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   
+    padding-top: 42px;
 }
 
 .menu {
@@ -81,12 +112,7 @@ body {
     
 }
 
-.top_about_us {
-    border: 3px solid rgb(10, 183, 226);
-    margin-top: 30px;
-   
- 
-}
+
 
 .what_we_do {
     border: 3px solid purple;
