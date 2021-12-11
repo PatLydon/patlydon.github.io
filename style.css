@@ -4,7 +4,7 @@
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 body {
@@ -62,8 +62,12 @@ body {
     text-align: center;
 }
 .heading_3 {
-    font-size: 36px;
+    font-weight: 300;
+    font-size: 36px;    
     text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+   
 }
 
 .heading_4 {
@@ -71,6 +75,12 @@ body {
     line-height: 30px;
     color: #1F3F68;
 }
+
+.card_heading {
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
 .vvod {
     border: 1px solid #356ead;
     box-sizing: border-box;
@@ -115,43 +125,115 @@ body {
 
 
 .what_we_do {
-    border: 3px solid purple;
      
 }
 
-.what_we_do_section {
-    border: 3px solid green;
-    margin-bottom: 20px;
+.card_box {
     display: flex;
     justify-content: space-between;
+    margin-top: 64px;
+    padding-bottom: 64px;
+    flex-grow: 1;
+    flex-wrap: wrap;
     
 }
 
+.card_img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
 .card {
-    border: 3px solid fuchsia;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
+    width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.make_your_business {
-    width: 356px;
+.card_text {
+    width: 295px;
 }
 
-.bring_technology{
-    width: 356px;
+.card_link {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin-top: 30px;
+
 }
-
-.build_products{
-    width: 356px;
-}
-
-
 
 .project {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 3px solid red;
+   
+}
+
+.project_heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.project_text {
+text-align: center;
+color: #222222;
+opacity: 1;
+margin-bottom: 64px;
+}
+
+.project_item {
+    position: relative;
+}
+
+.item_img{
+    width: 100%;
+}
+
+.item_text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.parrant_project {
+    margin: 32px auto 112px;
+    display: flex;
+}
+
+.child_project{
+    flex-grow: 1;
+    position: relative;
+    
+}
+
+.child_1 {
+    margin-right: 32px;
+    
+}
+
+
+.child_text {
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
 }
 
 .footer {
