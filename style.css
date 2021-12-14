@@ -4,7 +4,6 @@
 }
 
 .container {
-    
     width: 1140px;
     margin: 0 auto;
 }
@@ -65,8 +64,7 @@ body {
 .heading_3 {
     font-weight: 300;
     font-size: 36px;    
-    text-align: center;
-    letter-spacing: 0.05em;
+     letter-spacing: 0.05em;
     color: #000000;
    
 }
@@ -75,6 +73,16 @@ body {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+}
+
+.what_we_do_heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 64px;
 }
 
 .card_heading {
@@ -109,9 +117,6 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    height: 768px;
-
 }  
   
 
@@ -128,9 +133,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
 
 
-.what_we_do {
-     
-}
+
 
 .card_box {
     display: flex;
@@ -173,9 +176,7 @@ background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 
 }
 
-.project {
-   
-}
+
 
 .project_heading {
     font-weight: 300;
@@ -241,44 +242,88 @@ margin-bottom: 64px;
 }
 
 .footer {
-    border: 3px solid red;
+    background: #316099;
 }
 
 .footer_top {
-    border: 3px solid palegoldenrod;
-    margin-top: 10px;
+    
+       display: flex;
+    justify-content: space-between;
 }
 
 .interested_to_work {
-    border: 3px solid deeppink;
     width: 495px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-top: 91px;
+    margin-bottom: 96px;
 }
 
 .footer_heading {
     width: 340px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
 }
+
+.footer_text{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    }
+
+    .footer_link {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        text-decoration: none;
+        background: #5A98D0;
+        padding: 15px 90px;
+        display: inline-block;
+        align-self: center;
+    }
  
 .line {
-    border: 3px solid lightsteelblue;
-    margin-top: 10px;
+    opacity: 0.4;
+     border: 1px solid #FFFFFF;
     }
 
 .footer_bottom {
-    border: 3px solid greenyellow;
-    margin-top: 10px;
+        margin-top: 64px;
 }
 
 .footer_contacts_list{
-    list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+   
+
 }
 
+.list_items {
+    width: 316px;
+    padding-left: 19px;
+}
+
+
 .rights_reserv {
-    border: 3px solid gray;
-    margin-top: 10px;
+    padding-bottom: 64px;
+}
+
+.rights_reserved {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    margin-top: 64px;
+    
+
 }
 .top_contact_us {
     border: 3px solid blue;
