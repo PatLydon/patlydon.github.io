@@ -439,10 +439,11 @@ margin-bottom: 64px;
 
     .top {
         margin-top: 19px;
+        padding-bottom: 190px;
     }
 
     .top_about_us {
-        background-position: right 280px;
+        background-position: right 350px;
     }
 
     .container {
