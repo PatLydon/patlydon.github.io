@@ -504,10 +504,10 @@ margin-bottom: 64px;
     }
 
     .footer_contacts_list{
-        padding: 64px 124px 0;
+        padding-top: 64px;
         flex-direction: column;
-        width: 100%
-    }
+        width: 100%;
+        padding-left: 124px;
 
     .list_items {
         margin-bottom: 25px;
