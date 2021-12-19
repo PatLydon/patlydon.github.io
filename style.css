@@ -506,7 +506,6 @@ margin-bottom: 64px;
     .footer_contacts_list{
         
         flex-direction: column;
-        width: 100%;
         padding-left: 124px;
         padding-top: 64px;
     }
