@@ -57,11 +57,7 @@ body {
 
 
 
-.heading_2c {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
+
 .heading_3 {
     font-weight: 300;
     font-size: 36px;    
@@ -97,17 +93,7 @@ body {
     border-radius: 10px;
     opacity: 0.4;
 }
-.knopka {
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFF;
-    text-transform: uppercase;
-}
+
 
 .top {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -338,113 +324,222 @@ margin-bottom: 64px;
     
 
 }
-.top_contact_us {
-    border: 3px solid blue;
-    margin-bottom: 20px;
+.tsop_contact_us {
+    border: none;
+    margin: 54px auto 16px;
+    background-image: url(img/contact_top.png);
+    background-repeat: no-repeat;
+    width: 1360px;
+}
+
+.heading_2c {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    
+   
+   }
+   .contact_text {
+    margin: 54px auto 16px;
+    background-image: url(img/contact_top.png);
+    background-repeat: no-repeat;
+    width: 1360px;
+    padding-top: 51px;
+    padding-bottom: 50px;
+   }
+
+
+.contact_us_text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    
+       
+}
+
+.text_cont{
+    width: 780px;
+    margin: 16px auto 0px;
 }
 
 .main_contact_section {
-    border: 3px solid red;
-    margin-bottom: 20px;
-    
+
+    margin-top: 57px;
+   
 }
 
 .form_container{
     display:flex;
     justify-content: space-between;
-    flex-grow: 1;
+    width: 940px;
+    margin: auto;
+    
         
 }
 
 .form_list {
-    list-style-type: none;
+    list-style-image: url(img/phone.svg);
+    padding-left: 18px;
+    padding-top: 24px ;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-left: 25px;
 }
 
+.liphone1{
+    padding-bottom: 16px;
+    
+}
+
+.liphone {
+    padding-left: 20px;
+}
 .card_form{
     flex-grow: 1;
     width: 50%;
 }
 
+.form_link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68
+}
+
+.site-1 {
+    list-style-image: url(img/site-1.svg) ;
+}
+
+
+.site-2 {
+    list-style-image: url(img/site-2.svg) ;
+}
+
 .main_contacts {
-    border: 3px solid orange;
-    margin: 5px;
-    
+    margin-top: 83px;
+    max-width:300px
 
 }
 
 
 .contact_image {
-    border: 3px solid blue;
-    margin: 5px;
+       margin-bottom: 56px;
 }
 
 .adress{
-    border: 3px solid blue;
-    margin: 5px;
+     margin-bottom: 40px;
+}
+
+.adress_heading {
+    padding-bottom: 24px;
 }
 
 .phone{
-    border: 3px solid blue;
-    margin: 5px;
+   
+    margin-bottom: 40px;
 }
 
 .mail{
-    border: 3px solid blue;
+    
     margin: 5px;
 }
 
 
 .form_section {
-    border: 3px solid olive;
-    margin: 5px;
+  
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 56px;
+    max-width: 540px;
+    box-sizing: border-box;
 }
 
-.form_block {
-    display: flex;
+.form_heading{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;  
+    color: #1F3F68;
+    padding-bottom: 48px;
 }
 
+.form_text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-top: 32px;
+}  
 
 
-.name_form { 
-    border: 3px solid brown;
-    margin: 5px;
+.form_block { 
    
-}
-
-.wright_name{
-    border : 3px solid gray;
-    margin : 5px;
-}
-
-.email_form {
-    border: 3px solid brown;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
 }
 
-.wright_email {
-    border : 3px solid gray;
-    margin : 5px;
+
+
+
+.vvod {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 21px 42px;
+    width: 100%;
+}
+
+.vod_massage {
+    resize: none;
 }
 
 
-.massage_form {
-    border: 3px solid brown;
-    margin: 5px;
-}
-
-.wright_massage{
-    border : 3px solid gray;
-    margin : 5px;
+.knopka {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 22px 183px;
+    box-sizing: border-box;
+    border: none;
+    
 }
 
 .button_form {
-    border: 3px solid brown;
-    margin: 5px;
-}
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    
 
+}
+ 
+iframe {
+    width: 100%;
+    height: 480px;
+}
 .map_section {
-    border: 3px solid orchid;
-    margin: 0 auto;
+
+    margin: 96px auto 112px;
+    width: 940px;
     
    
 }
