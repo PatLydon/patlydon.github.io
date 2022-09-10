@@ -816,13 +816,13 @@ iframe {
 
     }
 
-    .contact-txt{
+    .contact-txt {
         font-size: 16px;
         margin: 0 auto;
         max-width: 100%;
     }
 
-    .our-contacts{
+    .our-contacts {
         margin: 46px auto 32px;
     }
 
@@ -830,45 +830,50 @@ iframe {
         margin-bottom: 32;
     }
 
-    .cont-list-heading{
+    .cont-list-heading {
         margin-top: 32px;
     }
-    .contacts-info{
+
+    .contacts-info {
         margin-bottom: 32px;
     }
 
-    .contact-form{
+    .contact-form {
         padding: 36px;
         max-width: 340px;
     }
 
-    .form-heading{
+    .form-heading {
         font-size: 16px;
         margin-bottom: 0;
     }
-    .form-txt{
+
+    .form-txt {
         font-size: 14px;
         margin-bottom: 0;
         margin-top: 0;
     }
 
-    .form-txt-margin{
+    .form-txt-margin {
         margin-top: 32px;
     }
-    .input{
+
+    .input {
         max-width: 270px;
         padding: 13px 22px;
         margin-bottom: 20px;
         margin-top: 0;
     }
-    .submit-btn{
+
+    .submit-btn {
         margin-top: 26px;
     }
 
-    iframe{
+    iframe {
         height: 350px;
     }
 
-    .contact-form-wrap{
+    .contact-form-wrap {
         margin-bottom: 32px;
     }
+}
