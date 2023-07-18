@@ -722,6 +722,13 @@ ol {
   .header{
     text-align: center;
   }
+
+  .header__descr{
+    background-color: rgba(136, 98, 57, 0.6);
+    color: #fff;
+    border-radius: 3px;
+  }
+    
   .header__title {
     font-size: 50px;
   }
