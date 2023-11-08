@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<svg width="51" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m0.29,7.29c-0.39,0.39 -0.39,1.03 0,1.42l6.37,6.36c0.39,0.39 1.02,0.39 1.41,0c0.39,-0.39 0.39,-1.02 0,-1.41l-5.66,-5.66l5.66,-5.66c0.39,-0.39 0.39,-1.02 0,-1.41c-0.39,-0.39 -1.02,-0.39 -1.41,0l-6.37,6.36zm0.71,1.71l50,0l0,-2l-50,0l0,2z" fill="white" id="svg_1" transform="rotate(-179.537 25.4987 8)"/>
+ </g>
+</svg>

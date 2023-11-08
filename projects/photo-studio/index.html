@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#060606">
+  <title>Dvortsova Photo</title>
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+  <header class="header" style="background-image: url('images/banner.jpg');">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__inner">
+          <a class="logo" href="#body">
+            <img class="logo__img" src="images/logo.svg" alt="Лого">
+          </a>
+
+          <nav class="menu">
+            <button class="burger" aria-label="меню" type="button">
+              <span class="line"></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__button-close-modal">
+                <button class="menu__btn" type="button">
+                  <img class="menu__close" src="images/close.svg" aria-label="закрыть-меню" alt="закрыть">
+                </button>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--nav" href="#about">Про мене</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--nav" href="#portfolio">Портфоліо</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--nav" href="#price">Прайс</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--nav" href="#review">Відгуки</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--nav" href="#contact">Контакти</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link menu__link--tell" href="tel:+380968083343">+380968083343</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__box">
+          <p class="header__text">
+            З любов'ю до кожного знімку
+          </p>
+          <h1 class="header__title">
+            Весільний фотограф Дворцова Анастасія
+          </h1>
+          <button class="header__btn button" type="button" data-fancybox data-src="#hidden-content">
+            Записатися на фотосесію
+          </button>
+          <div class="modal" id="hidden-content">
+            <button class="modal__btn" type="button" data-fancybox-close>
+              <img src="images/modal.svg" alt="закрыть">
+            </button>
+            <form class="header__form contacts" action="#">
+              <label class=" contacts__label" for="name-modal">
+                <input class=" contacts__input modal__input" type="text" name="name-modal" id="name-modal"
+                  placeholder="Імя">
+              </label>
+              <label class=" contacts__label" for="tell-modal">
+                <input class=" contacts__input modal__input" type="text" name="tell-modal" id="tell-modal"
+                  placeholder="Телефон">
+              </label>
+              <label class=" contacts__label" for="message-modal">
+                <textarea class=" contacts__input modal__input  modal__input--area  contacts__input--area"
+                  name="message-modal" placeholder="Ваше повідомлення" id="message-modal"></textarea>
+              </label>
+              <button class="contacts__btn button" type="submit">
+                Відправити
+              </button>
+            </form>
+          </div>
+        </div>
+        <ul class="header__social social ">
+          <li class="social__item">
+            <a class="social__link" href="https://instagram.com/andriy.grrrl.power?igshid=NzZlODBkYWE4Ng=="
+              style="background-image: url('images/instagram-icon.svg');" target="_blank"
+              aria-label="ссылка на инстаграм">
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="https://t.me/babuba11"
+              style="background-image: url('images/telegram-icon.svg');" target="_blank"
+              aria-label="ссылка на телеграм">
+            </a>
+          </li>
+        </ul>
+        <p class="header__text header__text--bottom">
+          Віддам весілля менше ніж за місяць
+        </p>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title title--margin">
+          Про мене
+        </h2>
+        <div class="about__inner">
+
+          <div class="about__img-box">
+            <img class="about__image" src="images/about-image-1.jpg" alt="Анастасия Дворцова">
+          </div>
+
+          <div class="about__text">
+            <div class="about__text-info">
+              <h3 class="about__title">
+                Привіт, я Анастасія – ваш майбутній фотограф.
+              </h3>
+              <p>
+                Займаюся фотографією понад 10 років і точно знаю, як зробити фотосесію більш комфортною та продуктивною.
+              </p>
+              <p>
+                Спеціалізуюся на весільній зйомці, жіночому портреті та фотосесіях для вагітних.
+              </p>
+              <h3 class="about__title">
+                Чим я можу допомогти?
+              </h3>
+              <ul class="about__list">
+                <li class="about__item">
+                  Розробка ідеї
+                </li>
+                <li class="about__item">
+                  Допомога у виборі одягу та аксесуарів
+                </li>
+                <li class="about__item">
+                  Підбір локації
+                </li>
+                <li class="about__item">
+                  Повний напрямок у позуванні
+                </li>
+                <li class="about__item">
+                  Підготовка необхідного реквізиту
+                </li>
+              </ul>
+            </div>
+            <div class="about__text-box">
+              <p>
+                Достеменно знаю, як скоротити бюджет фотосесії без втрати якості
+              </p>
+              <p>
+                Ви отримаєте стильні, якісні фотографії, які будуть актуальні ще довгий час
+              </p>
+              <p>
+                Приємно познайомитися!
+              </p>
+            </div>
+            <img class="about__text-img" src="images/about-image-2.jpg" alt="Анастасия Дворцова">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="title">
+          Портфоліо
+        </h2>
+
+
+
+        <div class="portfolio__slider-wrapp">
+          <div class="slider-nav ">
+            <button class="slide-btn  slide-btn--woman slider-nav__btn slider-nav__btn--big slide-btn--active"
+              type="button" data-index="3">
+              Жіночий портрет
+            </button>
+
+            <button class="slide-btn slide-btn--wedding slider-nav__btn " type="button" data-index="1">
+              Весілля
+            </button>
+
+            <button class="slide-btn slide-btn--pregnancy slider-nav__btn" type="button" data-index="2">
+              Вагітність
+            </button>
+          </div>
+
+          <div class="portfolio__slider">
+
+
+            <div class="portfolio__slide-box portfolio__slide-box--active" data-index="1">
+              <div class="slide-btn  slide-btn--woman  slide-btn--active slide-txt">
+                Жіночий портрет
+              </div>
+              <ul class="portfolio__gallary  portfolio__gallary--woman">
+                <li class="portfolio__gallary-item portfolio__gallary-item--big">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/1.webp">
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/1.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/1-mobile.jpg" type="image/jpeg">
+                      <source media="(max-width:360px)" srcset="images/portfolio/1.jpg" type="image/jpeg">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/1.jpg" alt="Девушка в шубе">
+                    </picture>
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/2.webp">
+                    <img class="portfolio__img" src="images/portfolio/2.jpg" alt="Девушка на полу">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/3.webp">
+                    <img class="portfolio__img" src="images/portfolio/3.jpg" alt="Девушка стоит">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/4.webp">
+                    <img class="portfolio__img" src="images/portfolio/4.jpg" alt="Девушка на шпагате">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/5.webp">
+                    <img class="portfolio__img" src="images/portfolio/5.jpg" alt="Девушка на пуфике">
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+            <div class="portfolio__slide-box" data-index="2">
+              <div class="slide-btn  slide-btn--woman  slide-btn--active slide-txt">
+                Весілля
+              </div>
+              <ul class="portfolio__gallary portfolio__gallary--wedding">
+                <li class="portfolio__gallary-item portfolio__gallary-item--big" data-fancybox="gallery"
+                  data-src="images/portfolio/6.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/6.webp">
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/6.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/portfolio-img/6.webp"
+                        type="image/webp">
+                        <source media="(max-width:360px)" srcset="images/portfolio/6.jpg" type="image/jpeg">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/6.jpg" alt="Девушка в шубе">
+                    </picture>
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/7.webp">
+                    <img class="portfolio__img" src="images/portfolio/7.jpg" alt="Девушка на полу">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/8.webp">
+                    <img class="portfolio__img" src="images/portfolio/8.jpg" alt="Девушка стоит">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/9.webp">
+                    <img class="portfolio__img" src="images/portfolio/9.jpg" alt="Девушка на шпагате">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/10.webp">
+                    <img class="portfolio__img" src="images/portfolio/10.jpg" alt="Девушка на пуфике">
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+
+            <div class="portfolio__slide-box" data-index="3">
+              <div class="slide-btn  slide-btn--woman  slide-btn--active slide-txt">
+                Вагітність
+              </div>
+              <ul class="portfolio__gallary portfolio__gallary--pregnancy">
+                <li class="portfolio__gallary-item portfolio__gallary-item--big">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/11.webp">
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/11.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/portfolio-img/11.webp"
+                        type="image/webp">
+                        <source media="(max-width:360px)" srcset="images/portfolio/11.jpg" type="image/jpeg">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/11.jpg"
+                        alt="Девушка в шубе">
+                    </picture>
+                  </a>
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/12.webp">
+                    <img class="portfolio__img" src="images/portfolio/12.jpg" alt="Девушка на полу">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/13.webp">
+                    <img class="portfolio__img" src="images/portfolio/13.jpg" alt="Девушка стоит">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/14.webp">
+                    <img class="portfolio__img" src="images/portfolio/14.jpg" alt="Девушка на шпагате">
+                  </a>
+
+                </li>
+                <li class="portfolio__gallary-item">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/15.webp">
+                    <img class="portfolio__img" src="images/portfolio/15.jpg" alt="Девушка на пуфике">
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+
+    <section class="price" id="price" style="background-image: url('images/price-bg.jpg');">
+      <div class="container">
+        <h2 class="title price__title">Прайс</h2>
+        <ul class="price__list">
+          <li class="price__card">
+            <h3 class="price__card-title">
+              Пакет «mini»
+            </h3>
+            <ul class="price__card-list">
+              <li class="price__card-item">
+                фотографування до 3 годин (кожна додаткова година - 2000₴)
+              </li>
+              <li class="price__card-item">
+                персональна галерея від 200 фотографій в авторській обробці, активна 1 місяць.
+              </li>
+              <li class="price__card-item">
+                термін віддачі фото – до 2 тижнів.
+              </li>
+              <li class="price__card-item">
+                допоможу з вибором маршруту, локаціями, позуванням.
+              </li>
+            </ul>
+            <div class="price__item-price">
+              7000 ₴
+            </div>
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
+              Забронювати
+            </button>
+          </li>
+          <li class="price__card">
+            <h3 class="price__card-title">
+              Пакет «standard»
+            </h3>
+            <ul class="price__card-list">
+              <li class="price__card-item">
+                фотографування до 8 годин (кожна додаткова година - 2 500₴)
+              </li>
+              <li class="price__card-item">
+                персональна галерея від 500 фотографій у авторській обробці, активна 1 місяць.
+              </li>
+              <li class="price__card-item">
+                термін віддачі фото - до 1 місяця
+              </li>
+              <li class="price__card-item">
+                у подарунок йде коробочка з флешкою та 10 роздрукованих фото 10*15
+              </li>
+            </ul>
+            <div class="price__item-price">
+              13.000 ₴
+            </div>
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
+              Забронювати
+            </button>
+          </li>
+          <li class="price__card">
+            <h3 class="price__card-title">
+              Пакет «pro»
+            </h3>
+            <ul class="price__card-list">
+              <li class="price__card-item">
+                фотографування до 12 годин
+              </li>
+              <li class="price__card-item">
+                персональна галерея від 800 фотографій у авторській обробці, активна 1 місяць.
+              </li>
+              <li class="price__card-item">
+                термін віддачі фото – до 1 місяця.
+              </li>
+              <li class="price__card-item">
+                20-30 фото протягом тижня
+              </li>
+              <li class="price__card-item">
+                у подарунок йде коробочка з флешкою та 15 роздрукованих фото 10*15
+              </li>
+            </ul>
+            <div class="price__item-price">
+              20.000 ₴
+            </div>
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
+              Забронювати
+            </button>
+          </li>
+          <li class="price__card">
+            <h3 class="price__card-title">
+              Жіночий портрет
+            </h3>
+            <ul class="price__card-list">
+              <li class="price__card-item">
+                всі вдалі фото в корекції кольору (100+)
+              </li>
+              <li class="price__card-item">
+                20 шт/год у повній ретуші
+              </li>
+              <li class="price__card-item">
+                самостійний відбір фото на ретуш
+              </li>
+              <li class="price__card-item">
+                готовність фото – до 2-х тижнів
+              </li>
+              <li class="price__card-item">
+                допомога у позуванні та на всіх етапах підготовки до зйомки
+              </li>
+            </ul>
+            <div class="price__item-price">
+              2.000 ₴ – 1год/ 4000 ₴ – 2год
+            </div>
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
+              Забронювати
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="review " id="review">
+      <div class="container">
+        <h2 class="title review__title">
+          Відгуки
+        </h2>
+        <ul class="review__slider">
+          <li class="review__item">
+            <div class="review__inner">
+              <div class="review__content">
+                <h3>
+                  Христина та Степан
+                </h3>
+                <p>
+                  Ми з чоловіком не були задоволені весільними знімками від іншого фотографа, Настя запропонувала знімати нас до
+                  річниці я
+                  була дуже рада, тому що знала що результат буде відмінний. Я не хвилювалася, Настя підказувала і
+                  показувала
+                  як
+                  нам встати, куди дивитися, що робити. Було дуже легко та круто, фотки як завжди віддала дуже швидко
+                  і все було
+                  так,
+                  як я собі уявляла. Шалено красиві кадри. У мене проблемна шкіра і навіть за це я не переживала
+                  величезне
+                  Дякую.
+                  Насті, вона справжній професіонал своєї справи!
+                </p>
+              </div>
+              <img class="review__img" src="images/review/1.jpg" alt="Христина та Степан">
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__inner">
+              <div class="review__content">
+                <h3>
+                  Валерія та Денис
+                </h3>
+                <p>
+                  Дорога Анастасія, ми готові в тисячний раз освідчуватися в коханні твого професіоналізму, тобі немає
+                  рівних!
+                  підготовці
+                  до весілля Настя дуже допомогла мені своїми лайфхаками!
+                  Коли Настя скинула таймінг дня, я дуже здивувалася точності до хвилини і думала, що це буде
+                  неможливо, але ми
+                  СКРІЗЬ
+                  приїжджали чітко таймінгом, це ще раз
+                  підтверджує професіоналізм! З тобою дуже легко, круто, весело та невимушено працювати, а головне
+                  той результат,
+                  котрий ми отримали перевершили всі наші очікування!
+                </p>
+              </div>
+              <img class="review__img" src="images/review/2.jpg" alt="Валерія та Денис">
+            </div>
+          </li>
+          <li class="review__item">
+            <div class="review__inner">
+              <div class="review__content">
+                <h3>
+                  Ганна та Максим
+                </h3>
+                <p>
+                Це був перший досвід зйомки для нас обох, переживала, що вийде мало хороших фото, але дарма!
+                Настя-профі,направляла нас протягом всієї фотосесії,дуже легко і комфортно було працювати.
+                Фотографії вийшли чудові, дуже тонко і чуттєво передала нас, навіть не думала, що ми такими можемо
+                бути)
+                Мама плакала, коли дивилася)
+                Дякую величезне за таку працю! Дуже хотіли б попрацювати ще в майбутньому!
+                </p>
+              </div>
+              <img class="review__img" src="images/review/3.jpg" alt="Ганна та Максим">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container">
+        <div class="questions__inner">
+          <h2 class="questions__title title">
+            Часті запитання
+          </h2>
+          <ul class="questions__list">
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Як ми можемо отримати фотографії?
+              </h3>
+              <p class="questions__text">
+                Готовий матеріал передається у форматі JPEG через сховище у вигляді персональної галереї. Термін
+                зберігання фото 1
+                місяць
+              </p>
+            </li>
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Чи буде наше весілля опубліковано у вашому портфоліо?
+              </h3>
+              <p class="questions__text">
+                Безумовно, ваші чудові знімки побачать все, але якщо раптом, з якоїсь причини ви хочете заборонити
+                публікацію,то повний
+                заборона коштує 3000 ₴.
+              </p>
+            </li>
+
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Як забронювати дату зйомки?
+              </h3>
+              <p class="questions__text">
+                Бронювання здійснюється після передоплати (жіночий портрет та Пакет «mini»–200 ₴, пакети «standard» і
+                «pro»
+                - 1000
+                ₴).Повний розрахунок проводиться у день зйомки.
+              </p>
+            </li>
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Чи будуть якісь додаткові витрати?
+              </h3>
+              <ul class="questions__text question__text-list">
+                <li class="question__text-item">
+                  Ретуш фото +70₴/шт
+                </li>
+                <li class="question__text-item">
+                  За потреби локації бронюються та оплачуються самостійно.
+                </li>
+                <li class="question__text-item">
+                  Послуги візажиста/стиліста оплачуються окремо.
+                </li>
+                <li class="question__text-item">
+                  Прискорене оброблення фото + 6.000₴
+                </li>
+              </ul>
+            </li>
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Я не знаю, що мені надіти.
+              </h3>
+
+              <ul class="questions__text question__text-list">
+                <li class="questions__txt">
+                  Я допомагаю на всіх етапах підготовки:
+                </li>
+                <li class="question__text-item">
+                  Підбір одягу та аксесуарів.
+                </li>
+                <li class="question__text-item">
+                  Допомога з макіяжем та укладанням.
+                </li>
+                <li class="question__text-item">
+                  Надаю посилання на фахівців та товари
+                </li>
+              </ul>
+            </li>
+
+
+
+            <li class="questions__item">
+              <h3 class="questions__subtitle questions__subtitle--active">
+                Чи укладається договір на надання послуг?
+              </h3>
+              <p class="questions__text">
+                Так звичайно. Я надам його перед бронюванням.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="title contact__title">Зв'яжіться зі мною</h2>
+        <div class="contact__inner">
+          <img class="contact__img" src="images/contact-1.jpg" alt="Анастасія Дворцова">
+          <form class="contact__form contacts" action="#" name="yourMessage">
+            <label class="contacts__label" for="name">
+              <input class="contacts__input" type="text" name="name" id="name" placeholder="ім'я">
+            </label>
+            <label class="contacts__label" for="tell">
+              <input class="contacts__input" type="text" name="tell" id="tell" placeholder="Телефон">
+            </label>
+            <label class="contacts__label" for="message">
+              <textarea class="contacts__input contacts__input--area" name="message" placeholder="Ваше повідомлення"
+                id="message"></textarea>
+            </label>
+            <button class="contacts__btn button" type="submit">
+              Відправити
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo footer__logo" href="#body">
+          <img class="logo__img " src="images/logo.svg" alt="Лого">
+        </a>
+        <nav class="footer__menu">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#price">
+                Прайс
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#portfolio">
+                Портфоліо
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#review">
+                Відгуки
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#about">
+                Про мене
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contact-info">
+          <ul class="contact-info__list">
+            <li class="contact-info__item">
+              <a class="contact-info__link" href="mailto:office@ventservice.com.ua">
+                office@ventservice.com.ua
+              </a>
+            </li>
+            <li class="contact-info__item">
+              <a class="contact-info__link" href="tel:+380968083343">
+                +380968083343
+              </a>
+            </li>
+          </ul>
+
+          <ul class="footer__social social ">
+            <li class="social__item">
+              <a class="social__link" href="https://instagram.com/andriy.grrrl.power?igshid=NzZlODBkYWE4Ng=="
+                style="background-image: url('images/instagram-icon.svg');" target="_blank"
+                aria-label="силка на інстаграм">
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://t.me/babuba11"
+                style="background-image: url('images/telegram-icon.svg');" target="_blank"
+                aria-label="силка на телеграм">
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
