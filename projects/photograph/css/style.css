@@ -911,6 +911,21 @@ body {
     margin: 0 auto 20px;
   }
 
+  .slide-txt:hover {
+    background-color: #fff;
+    color: #060606;
+  }
+
+  .slide-txt:focus {
+    background-color: #fff;
+    color: #060606;
+  }
+
+  .slide-txt:active {
+    background-color: #fff;
+    color: #060606;
+  }
+
   .portfolio .slick-btn {
     left: 60%;
     transform: translateX(-50%);
@@ -1199,7 +1214,7 @@ body {
 @media(max-width:600px) {
 
   .header__box {
-    margin-top: -300px!important;
+    margin-top: -300px !important;
   }
 
   .about__text-img {
