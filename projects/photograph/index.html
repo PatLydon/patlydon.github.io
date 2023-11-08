@@ -38,9 +38,11 @@
               <span class="line"></span>
             </button>
             <ul class="menu__list">
-              <button class="menu__btn" type="button">
-                <img class="menu__close" src="images/close.svg" alt="закрыть">
-              </button>
+              <li class="menu__button-close-modal">
+                <button class="menu__btn" type="button">
+                  <img class="menu__close" src="images/close.svg" aria-label="закрыть-меню" alt="закрыть">
+                </button>
+              </li>
               <li class="menu__item">
                 <a class="menu__link" href="#about">Обо мне</a>
               </li>
@@ -77,15 +79,15 @@
               <img src="images/modal.svg" alt="">
             </button>
             <form class="header__form contacts" action="#">
-              <label class=" contacts__label" for="name">
-                <input class=" contacts__input modal__input" type="text" name="name" id="name" placeholder="Имя">
+              <label class=" contacts__label" for="name-modal">
+                <input class=" contacts__input modal__input" type="text" name="name-modal" id="name-modal" placeholder="Имя">
               </label>
-              <label class=" contacts__label" for="tell">
-                <input class=" contacts__input modal__input" type="text" name="tell" id="tell" placeholder="Телефон">
+              <label class=" contacts__label" for="tell-modal">
+                <input class=" contacts__input modal__input" type="text" name="tell-modal" id="tell-modal" placeholder="Телефон">
               </label>
-              <label class=" contacts__label" for="message">
-                <textarea class=" contacts__input modal__input  modal__input--area  contacts__input--area" name="message" placeholder="Ваше сообщение"
-                  id="message"></textarea>
+              <label class=" contacts__label" for="message-modal">
+                <textarea class=" contacts__input modal__input  modal__input--area  contacts__input--area" name="message-modal" placeholder="Ваше сообщение"
+                  id="message-modal"></textarea>
               </label>
               <button class="contacts__btn button" type="submit">
                 Отправить
@@ -577,9 +579,9 @@
               </h3>
 
               <ul class="questions__text question__text-list">
-                <p class="questions__txt">
+                <li class="questions__txt">
                   Я помогаю на всех этапах подготовки:
-                </p>
+                </li>
                 <li class="question__text-item">
                   Подбор одежды и аксессуаров.
                 </li>
