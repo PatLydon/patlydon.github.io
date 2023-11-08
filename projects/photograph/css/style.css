@@ -1199,7 +1199,7 @@ body {
 @media(max-width:600px) {
 
   .header__box{
-    margin-top: -300px;
+    margin-top: -300px!impartant;
   }
   .about__text-img {
     display: none;
