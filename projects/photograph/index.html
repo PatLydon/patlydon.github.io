@@ -31,8 +31,6 @@
             <img class="logo__img" src="images/logo.svg" alt="Лого">
           </a>
 
-
-
           <nav class="menu">
             <button class="burger" aria-label="меню" type="button">
               <span class="line"></span>
@@ -76,18 +74,20 @@
           </button>
           <div class="modal" id="hidden-content">
             <button class="modal__btn" type="button" data-fancybox-close>
-              <img src="images/modal.svg" alt="">
+              <img src="images/modal.svg" alt="закрыть">
             </button>
             <form class="header__form contacts" action="#">
               <label class=" contacts__label" for="name-modal">
-                <input class=" contacts__input modal__input" type="text" name="name-modal" id="name-modal" placeholder="Имя">
+                <input class=" contacts__input modal__input" type="text" name="name-modal" id="name-modal"
+                  placeholder="Имя">
               </label>
               <label class=" contacts__label" for="tell-modal">
-                <input class=" contacts__input modal__input" type="text" name="tell-modal" id="tell-modal" placeholder="Телефон">
+                <input class=" contacts__input modal__input" type="text" name="tell-modal" id="tell-modal"
+                  placeholder="Телефон">
               </label>
               <label class=" contacts__label" for="message-modal">
-                <textarea class=" contacts__input modal__input  modal__input--area  contacts__input--area" name="message-modal" placeholder="Ваше сообщение"
-                  id="message-modal"></textarea>
+                <textarea class=" contacts__input modal__input  modal__input--area  contacts__input--area"
+                  name="message-modal" placeholder="Ваше сообщение" id="message-modal"></textarea>
               </label>
               <button class="contacts__btn button" type="submit">
                 Отправить
@@ -201,38 +201,43 @@
 
           <div class="portfolio__slider">
 
-            
+
             <div class="portfolio__slide-box portfolio__slide-box--active" data-index="1">
-              <div class="slide-btn  slide-btn--woman  slide-btn--active slide-txt" >
+              <div class="slide-btn  slide-btn--woman  slide-btn--active slide-txt">
                 Женский портрет
               </div>
               <ul class="portfolio__gallary  portfolio__gallary--woman">
                 <li class="portfolio__gallary-item portfolio__gallary-item--big">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/1.jpg">
-                    <img class="portfolio__img portfolio__img--big" src="images/portfolio/1.jpg" alt="Девушка в шубе">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/1.webp">
+
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/1.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/1-mobile.jpg" type="image/jpeg">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/1.jpg" alt="Девушка в шубе">
+                    </picture>
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/2.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/2.webp">
                     <img class="portfolio__img" src="images/portfolio/2.jpg" alt="Девушка на полу">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/3.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/3.webp">
                     <img class="portfolio__img" src="images/portfolio/3.jpg" alt="Девушка стоит">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/4.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/4.webp">
                     <img class="portfolio__img" src="images/portfolio/4.jpg" alt="Девушка на шпагате">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/5.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/5.webp">
                     <img class="portfolio__img" src="images/portfolio/5.jpg" alt="Девушка на пуфике">
                   </a>
 
@@ -246,31 +251,36 @@
               <ul class="portfolio__gallary portfolio__gallary--wedding">
                 <li class="portfolio__gallary-item portfolio__gallary-item--big" data-fancybox="gallery"
                   data-src="images/portfolio/6.jpg">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/6.jpg">
-                    <img class="portfolio__img portfolio__img--big" src="images/portfolio/6.jpg" alt="Девушка в шубе">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/6.webp">
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/6.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/portfolio-img/6.webp"
+                        type="image/webp">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/6.jpg" alt="Девушка в шубе">
+                    </picture>
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/7.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/7.webp">
                     <img class="portfolio__img" src="images/portfolio/7.jpg" alt="Девушка на полу">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/8.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/8.webp">
                     <img class="portfolio__img" src="images/portfolio/8.jpg" alt="Девушка стоит">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/9.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/9.webp">
                     <img class="portfolio__img" src="images/portfolio/9.jpg" alt="Девушка на шпагате">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/10.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/10.webp">
                     <img class="portfolio__img" src="images/portfolio/10.jpg" alt="Девушка на пуфике">
                   </a>
 
@@ -284,31 +294,36 @@
               </div>
               <ul class="portfolio__gallary portfolio__gallary--pregnancy">
                 <li class="portfolio__gallary-item portfolio__gallary-item--big">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/11.jpg">
-                    <img class="portfolio__img portfolio__img--big" src="images/portfolio/11.jpg" alt="Девушка в шубе">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/11.webp">
+                    <picture>
+                      <source media="(min-width:601px)" srcset="images/portfolio/11.jpg" type="image/jpeg">
+                      <source media="(max-width:600px)" srcset="images/portfolio/portfolio-img/11.webp"
+                        type="image/webp">
+                      <img class="portfolio__img portfolio__img--big" src="images/portfolio/11.jpg"
+                        alt="Девушка в шубе">
+                    </picture>
                   </a>
-
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/12.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/12.webp">
                     <img class="portfolio__img" src="images/portfolio/12.jpg" alt="Девушка на полу">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/13.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/13.webp">
                     <img class="portfolio__img" src="images/portfolio/13.jpg" alt="Девушка стоит">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/14.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/14.webp">
                     <img class="portfolio__img" src="images/portfolio/14.jpg" alt="Девушка на шпагате">
                   </a>
 
                 </li>
                 <li class="portfolio__gallary-item">
-                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/15.jpg">
+                  <a class="portfolio__link" href="#" data-fancybox data-src="images/portfolio/portfolio-img/15.webp">
                     <img class="portfolio__img" src="images/portfolio/15.jpg" alt="Девушка на пуфике">
                   </a>
 
@@ -353,7 +368,7 @@
             <div class="price__item-price">
               15.500 Р
             </div>
-            <button class="price__btn" type="button">
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
               Забронировать
             </button>
           </li>
@@ -378,7 +393,7 @@
             <div class="price__item-price">
               35.000 Р
             </div>
-            <button class="price__btn" type="button">
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
               Забронировать
             </button>
           </li>
@@ -406,7 +421,7 @@
             <div class="price__item-price">
               50.000 Р
             </div>
-            <button class="price__btn" type="button">
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
               Забронировать
             </button>
           </li>
@@ -434,14 +449,14 @@
             <div class="price__item-price">
               5.000 Р – 1ч/ 8000 Р – 2ч
             </div>
-            <button class="price__btn" type="button">
+            <button class="price__btn" type="button" data-fancybox data-src="#hidden-content">
               Забронировать
             </button>
           </li>
         </ul>
       </div>
     </section>
-     <section class="review " id="review">
+    <section class="review " id="review">
       <div class="container">
         <h2 class="title review__title">
           Отзывы
