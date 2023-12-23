@@ -371,7 +371,7 @@ body {
 }
 
 .intro__title {
-  font-family: Barlow Condensed;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 100px;
   font-weight: 400;
   letter-spacing: 6px;
@@ -598,7 +598,7 @@ body {
 .vision__text {
   max-width: 1400px;
   width: 100%;
-  font-family: Barlow Condensed;
+  font-family: 'Barlow Condensed', sans-serif;
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 1.92px;
