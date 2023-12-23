@@ -948,7 +948,7 @@ body {
   flex-direction: row-reverse;
 
   .services__item-title {
-    color: #27374D;
+    color: #27374D!important;
   }
 
   .services__item-link::after {
@@ -972,6 +972,12 @@ body {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+.services__item:nth-child(even){
+  .services__item-title{
+    color: #27374D;
+  }
 }
 
 .services__item-text {
