@@ -622,6 +622,7 @@ body {
   font-family: Arial;
   font-size: 104px;
   font-weight: 700;
+  text-align: center;
 }
 
 .descr {
@@ -1797,6 +1798,7 @@ body {
   }
 
   .banner {
+
     height: 300px;
     align-items: start;
 
@@ -2001,7 +2003,7 @@ body {
 
   .banner__title {
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .descr {
@@ -2455,8 +2457,8 @@ body {
 
   .banner__title {
     padding-top: 20px;
-    font-size: 24px;
-  }
+    font-size: 16px;
+  
 
   .descr__title {
     font-size: 18px;
