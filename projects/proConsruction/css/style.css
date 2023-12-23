@@ -2176,6 +2176,10 @@ body {
     padding: 10px 50px;
   }
 
+  .projects__slider{
+    padding: 0 20px;
+  }
+
   .projects__slider--desctop {
     display: none;
   }
@@ -2503,7 +2507,7 @@ body {
   }
 
   .projects__slider {
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
 
   .advantages__item {
