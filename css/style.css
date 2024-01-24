@@ -40,20 +40,6 @@ ol {
 ul {
   list-style: none;
 }
-.sr-only{
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hedden;
-  
-}
-  
 
 body {
 
@@ -163,11 +149,7 @@ body {
   line-height: 27px
 }
 
-.project__list,
-.company__list {
-  padding-left: 16px;
 
-}
 
 .project__item {
   
@@ -188,6 +170,10 @@ body {
   content: "0" counter(my-counter);
   left: 15px;
   color: #d7b627;
+}
+
+.project__item:nth-child(n+10)::before {
+  content: '' counter(counter);
 }
 
 .project__link {
