@@ -216,6 +216,10 @@ body {
   margin-bottom: 12px;
 }
 
+.company__list  {
+  list-style: disc;
+}
+
 .company__title {
   color: #000;
   font-size: 16px;
