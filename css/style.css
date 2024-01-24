@@ -173,7 +173,7 @@ body {
 }
 
 .project__item:nth-child(n+10)::before {
-  content: '' counter(counter);
+  content: '' counter(my-counter);
 }
 
 .project__link {
