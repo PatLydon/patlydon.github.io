@@ -79,6 +79,29 @@ body {
   line-height: 21px;
   color: #fff;
   background-color: #0e0e0e;
+  
+}
+
+.wrapper{
+  position: relative;
+}
+
+.inner{
+  position: absolute;
+  width: 100%;
+}
+
+.box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #283d4e;
+  transform: translate(200%, 0) skew(30deg);
 }
 
 .container {
