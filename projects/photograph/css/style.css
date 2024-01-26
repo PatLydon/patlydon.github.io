@@ -95,7 +95,7 @@ body {
   background-color: #A58B77;
 }
 
-.button:focus {
+.button:focus-visible {
   box-shadow: 0 0 0 3px #FF543E;
 }
 
@@ -152,7 +152,7 @@ body {
   opacity: .8;
 }
 
-.logo:focus {
+.logo:focus-visible {
   outline: 1px solid #FF543E;
 }
 
@@ -186,18 +186,14 @@ body {
 .contact-info__link:hover {
   text-decoration-color: #ffffff;
 }
-
-.menu__link:active,
-.footer__link:active,
+  
+.menu__link:focus,
+.footer__link:focus,
 .contact-info__link:focus {
   outline: 1px solid #fff;
 }
 
-.menu__link:active,
-.footer__link:active,
-.contact-info__link:active {
-  color: #FF543E;
-}
+
 
 .header__text {
   font-size: 24px;
@@ -258,9 +254,6 @@ body {
   transform: scale(1.1);
 }
 
-/* .socail__link:focus{}
-  .socail__link:active{}
-   */
 
 .about {
   padding: 150px 0;
@@ -426,9 +419,9 @@ body {
   color: #060606;
 }
 
-.slide-btn:active {
+/* .slide-btn:active {
   background-color: #FF543E;
-}
+} */
 
 .price {
   padding: 50px 0 95px;
@@ -532,7 +525,7 @@ body {
 }
 
 .price__btn:active {
-  background-color: #FF543E;
+outline: 2px solid #A58B77;
 }
 
 .review {
