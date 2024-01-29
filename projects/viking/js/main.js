@@ -10,42 +10,42 @@ barba.init({
       namespace: 'season-1',
       
       afterEnter() {
-        menu();
+        homePage();
       }
     },
     {
       namespace: 'season-2',
 
       afterEnter() {
-        menu();
+        homePage();
       }
     },
     {
       namespace: 'season-3',
 
       afterEnter() {
-        menu();
+        homePageu();
       }
     },
     {
       namespace: 'season-4',
 
       afterEnter() {
-        menu();
+       homePage();
       }
     },
     {
       namespace: 'season-5',
 
       afterEnter() {
-        menu();
+        homePage();
       }
     },
     {
       namespace: 'season-6',
 
       afterEnter() {
-        menu();
+        homePage();
       }
     }
   ],
