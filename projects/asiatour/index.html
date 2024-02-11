@@ -24,45 +24,55 @@
 
   <header class="header">
     <div class="container">
-      <nav class="user-nav">
-        <ul class="user-nav__list">
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--partners" href="#">
-              ПАРТНЕРАМ
-            </a>
-          </li>
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--contacts" href="#">
-              КОНТАКТЫ
-            </a>
-          </li>
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--course" href="#">
-              КУРС ВАЛЮТ
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__top">
-        <a class="logo" href="#">
-          <img src="images/logo.png" alt="Лого">
-        </a>
-        <a href="tel:+966666666666" class="phone">+996 ХХXX XXXXX</a>
-        <ul class="header__contacts-list">
-          <li class="header__contacts-item">
-            <a class="header__contact-link" href="#" style="background-image: url(images/icons/watsapp.svg);"></a>
-          </li>
-          <li class="header__contacts-item">
-            <a class="header__contact-link" href="#" style="background-image: url(images/icons/telegram-icon.svg);"></a>
-          </li>
-        </ul>
-        <form class="header__form" action="#">
-          <select class="select-style">
-            <option value="ru">ru</option>
-            <option value="eng">eng</option>
-          </select>
-        </form>
+      <div class="header__top-box">
+        <nav class="user-nav">
+          <ul class="user-nav__list">
+            <li class="user-nav__item">
+              <a class="user-nav__link user-nav__link--partners" href="#">
+                ПАРТНЕРАМ
+              </a>
+            </li>
+            <li class="user-nav__item">
+              <a class="user-nav__link user-nav__link--contacts" href="#">
+                КОНТАКТЫ
+              </a>
+            </li>
+            <li class="user-nav__item">
+              <a class="user-nav__link user-nav__link--course" href="#">
+                КУРС ВАЛЮТ
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__top">
+          <a class="logo" href="#">
+            <img src="images/logo.png" alt="Лого">
+          </a>
+          <a href="tel:+966666666666" class="phone">+996 ХХXX XXXXX</a>
+          <ul class="header__contacts-list">
+            <li class="header__contacts-item">
+              <a class="header__contact-link" href="#" style="background-image: url(images/icons/watsapp.svg);"></a>
+            </li>
+            <li class="header__contacts-item">
+              <a class="header__contact-link" href="#"
+                style="background-image: url(images/icons/telegram-icon.svg);"></a>
+            </li>
+          </ul>
+          <form class="header__form" action="#">
+            <select class="select-style">
+              <option value="ru">ru</option>
+              <option value="eng">eng</option>
+            </select>
+          </form>
+        </div>
       </div>
+      <a class="logo--mobile" href="#">
+        <img src="images/logo.png" alt="Лого">
+      </a>
+      <button class="burger" type="button">
+        <span class="burger__line"></span>
+        <span class="sr-only">Открыть меню</span>
+      </button>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__list-item">
@@ -79,6 +89,7 @@
           </li>
         </ul>
       </nav>
+
     </div>
   </header>
 
@@ -121,13 +132,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -143,13 +151,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -165,13 +170,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -187,13 +189,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -209,13 +208,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -231,13 +227,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -260,13 +253,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -282,13 +272,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -304,13 +291,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -326,13 +310,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -348,13 +329,10 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+                  <h3>АВРОРА ПЛЮС</h3>
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -370,13 +348,13 @@
           <li class="hotel-slider__slide">
             <a class="hotel-slider__link" href="#">
               <article class="hotel-slider__card">
-                <img class="hotel-slider__img" src="images/hotel-slide-1.jpg" alt="Аврора плюс">
+                <div class="hotel-slider__img-box card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
                 <div class="hotel-slider__content-box">
                   <p class="hotel-slider__type">ОТЕЛИ</p>
-                  <div class="hotel-slider__rating-box">
-                    <h3>АВРОРА ПЛЮС</h3>
-                    <span class="hotel-slider__num">5</span>
-                  </div>
+
+                  <h3>АВРОРА ПЛЮС</h3>
+
+
                   <p class="hotel-slider__location">поселок Булан-Соготту</p>
                   <div class="hotel-slider__price-box">
                     <p class="hotel-slider__price">
@@ -396,11 +374,7 @@
     <section class="subscribe">
       <div class="container">
         <div class="subscribe__inner">
-          <svg width="1216" height="390" viewBox="0 0 1216 390" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-            <rect x="8.5" y="7.5" width="1197" height="370.779" rx="14.5" stroke="#0FA2FF" stroke-width="3"
-              stroke-linecap="round" stroke-dasharray="30 30" />
-          </svg>
           <div class="subscribe__content">
             <h2 class="subscribe__title">
               Подписка на рассылку
@@ -430,7 +404,7 @@
             <label class="subscribe-form__checkbox-label">
               <input class="subscribe-form__checkbox" type="checkbox">
               <span class="subscribe-form__checkbox-style"></span>
-              <span class="subscribe-form__checkbox-descr" >Даю согласие на обработку моих персональных данных</span>
+              <span class="subscribe-form__checkbox-descr">Даю согласие на обработку моих персональных данных</span>
             </label>
             <button class="subscribe-form__btn" type="submit">Подписаться</button>
           </form>
@@ -451,7 +425,7 @@
         <ul class="popular__list">
           <li class="popular__item">
             <article class="popular__box">
-              <img class="popular__img" src="images/hotel-slide-1.jpg" alt="Пляж">
+              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
               <span class="popular__date">01.01.2024</span>
               <h3>
                 ЗАГЛАВИЕ НОВОСТИ ЗАГЛАВИЕ НОВОСТИ
@@ -461,14 +435,14 @@
               </p>
               <a class="popular__link card-link" href="#">
                 Подробнее
-               
+
               </a>
             </article>
           </li>
 
           <li class="popular__item">
             <article class="popular__box">
-              <img class="popular__img" src="images/hotel-slide-1.jpg" alt="Пляж">
+              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
               <span class="popular__date">01.01.2024</span>
               <h3>
                 ЗАГЛАВИЕ НОВОСТИ ЗАГЛАВИЕ НОВОСТИ
@@ -478,13 +452,13 @@
               </p>
               <a class="popular__link card-link" href="#">
                 Подробнее
-                
+
               </a>
             </article>
           </li>
           <li class="popular__item">
             <article class="popular__box">
-              <img class="popular__img" src="images/hotel-slide-1.jpg" alt="Пляж">
+              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
               <span class="popular__date">01.01.2024</span>
               <h3>
                 ЗАГЛАВИЕ НОВОСТИ ЗАГЛАВИЕ НОВОСТИ
@@ -494,7 +468,7 @@
               </p>
               <a class="popular__link card-link" href="#">
                 Подробнее
-               
+
               </a>
             </article>
           </li>
