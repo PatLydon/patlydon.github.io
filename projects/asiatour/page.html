@@ -22,69 +22,78 @@
 
 <body>
 
-  <header class="header">
-    <div class="container">
+<header class="header">
+  <div class="container">
+    <div class="header__top-box">
       <nav class="user-nav">
-        <ul class="user-nav__list">
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--partners" href="#">
+        <ul>
+          <li>
+            <a class="user-nav__link--partners" href="#">
               ПАРТНЕРАМ
             </a>
           </li>
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--contacts" href="#">
+          <li>
+            <a class=" user-nav__link--contacts" href="#">
               КОНТАКТЫ
             </a>
           </li>
-          <li class="user-nav__item">
-            <a class="user-nav__link user-nav__link--course" href="#">
+          <li>
+            <a class="user-nav__link--course" href="#">
               КУРС ВАЛЮТ
             </a>
           </li>
         </ul>
       </nav>
       <div class="header__top">
-        <a class="logo" href="#">
-          <img src="images/logo.png" alt="Лого">
-        </a>
+        <a class="logo" href="#"></a>
         <a href="tel:+966666666666" class="phone">+996 ХХXX XXXXX</a>
-        <ul class="header__contacts-list">
-          <li class="header__contacts-item">
-            <a class="header__contact-link" href="#" style="background-image: url(images/icons/watsapp.svg);"></a>
+        <ul>
+          <li>
+            <a class="icon--wt-h" href="#" ></a>
           </li>
-          <li class="header__contacts-item">
-            <a class="header__contact-link" href="#" style="background-image: url(images/icons/telegram-icon.svg);"></a>
+          <li>
+            <a class="icon--tg-h" href="#"></a>
           </li>
         </ul>
-        <form class="header__form" action="#">
-          <select class="lang-select select-style">
-            <option value="ru">ru</option>
-            <option value="eng">eng</option>
-          </select>
-        </form>
+
+        <div class="lang" href="#">
+          <span>ru</span>
+          <ul>
+            <li><a href="#">ru</a></li>
+            <li><a href="#">eng</a></li>
+          </ul>
+        </div>
+
       </div>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__list-item">
-            <a class="menu__link" href="#">Иссык-Куль</a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__link" href="#">Туры по Средней Азии</a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__link" href="#">Зарубежный туризм</a>
-          </li>
-          <li class="menu__list-item">
-            <a class="menu__link" href="#">Горнолыжный туризм</a>
-          </li>
-        </ul>
-      </nav>
     </div>
-  </header>
+    <a class="logo--mobile" href="#"></a>
+    <button class="burger" type="button">
+      <span class="burger__line"></span>
+      <span class="sr-only">Открыть меню</span>
+    </button>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#">Иссык-Куль</a>
+        </li>
+        <li>
+          <a href="#">Туры по Средней Азии</a>
+        </li>
+        <li>
+          <a href="#">Зарубежный туризм</a>
+        </li>
+        <li>
+          <a href="#">Горнолыжный туризм</a>
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
 
 
   <main class="main">
-    <div class="top__container">
+    <div class="top">
       <div class="container">
         <div class="breadcrumbs">
           <ul class="breadcrumbs__list">
@@ -101,32 +110,105 @@
           </ul>
         </div>
         <nav class="top__menu">
-          <ul class="top__list">
-            <li class="top__item">
-              <a class="top__link top__link--active" href="#">РЕГИонЫ</a>
+          <ul >
+            <li>
+              <a class="top--active" href="#">РЕГИонЫ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">РАЗМЕЩЕНИЕ</a>
+            <li>
+              <a  href="#">РАЗМЕЩЕНИЕ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">ТРАНСПОРТ</a>
+            <li>
+              <a href="#">ТРАНСПОРТ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">АКЦИИ</a>
+            <li>
+              <a  href="#">АКЦИИ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">ЭКСКУРСИИ</a>
+            <li>
+              <a  href="#">ЭКСКУРСИИ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">ТУРИСТАМ</a>
+            <li>
+              <a href="#">ТУРИСТАМ</a>
             </li>
-            <li class="top__item">
-              <a class="top__link" href="#">ЦЕНЫ</a>
+            <li>
+              <a href="#">ЦЕНЫ</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
+    <section class="pages">
+      <div class="container">
+        <h2 class="title">Asia-Tour</h2>
+        <ul>
+          <li>
+            <a target="_blank" href="index.html">Головна</a>
+          </li>
+          <li>
+            <a target="_blank" href="issyk-kul.html">Регіон</a>
+          </li>
+          <li>
+            <a target="_blank" href="cholpon-ata.html">Регіон 2</a>
+          </li>
+          <li>
+            <a target="_blank" href="hotels.html">Готелі</a>
+          </li>
+          <li>
+            <a target="_blank" href="hotel-page.html">Опис готеля</a>
+          </li>
+          <li>
+            <a target="_blank" href="news.html">Новини</a>
+          </li>
+          <li>
+            <a target="_blank" href="news-page.html">Сторінка новин</a>
+          </li>
+          <li>
+            <a target="_blank" href="transport.html">Транспорт</a>
+          </li>
+          <li>
+            <a target="_blank" href="transport-page.html">Сторінка транспорту</a>
+          </li>
+          <li>
+            <a target="_blank" href="actions.html">Акції</a>
+          </li>
+          <li>
+            <a target="_blank" href="action-page.html">Сторінка акції</a>
+          </li>
+          <li>
+            <a target="_blank" href="excursion.html">Екскурсії</a>
+          </li>
+          <li>
+            <a target="_blank" href="excursion-page.html">Сторінка екскурсії</a>
+          </li>
+          <li>
+            <a target="_blank" href="tourist.html">Туристам</a>
+          </li>
+          <li>
+            <a target="_blank" href="prices.html">Ціни</a>
+          </li>
+          <li>
+            <a target="_blank" href="contacts.html">Контакти</a>
+          </li>
+          <li>
+            <a target="_blank" href="partners.html">Партнерам</a>
+          </li>
+          <li>
+            <a target="_blank" href="kurs.html">Курс валют</a>
+          </li>
+          <li>
+            <a target="_blank" href="mid-east-tour.html">Тури по середній Азії</a>
+          </li>
+          <li>
+            <a target="_blank" href="mid-east-tour-page.html">Сторінка туру по середній Азії</a>
+          </li>
+          <li>
+            <a target="_blank" href="international-tour.html">Зарубіжний туризм</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+ 
 
   </main>
 
@@ -134,62 +216,56 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
-        <ul class="footer__nav">
-          <li class="footer__nav-item footer__nav-item--bold">
-            <a class="footer__nav-link" href="#">Иссык-Куль</a>
+        <ul>
+          <li class="footer__nav-item--bold">
+            <a href="#">Иссык-Куль</a>
           </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Размещение</a>
+          <li>
+            <a href="#">Размещение</a>
           </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Транспорт</a>
-          </li>
-        </ul>
-        <ul class="footer__nav">
-          <li class="footer__nav-item footer__nav-item--bold">
-            <a class="footer__nav-link" href="#">О компании</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Контакты</a>
-          </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Партнерам</a>
+          <li>
+            <a href="#">Транспорт</a>
           </li>
         </ul>
-        <ul class="footer__nav">
-          <li class="footer__nav-item footer__nav-item--bold">
-            <a class="footer__nav-link" href="#">Цены</a>
+        <ul>
+          <li class="footer__nav-item--bold">
+            <a href="#">О компании</a>
           </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Акции</a>
+          <li>
+            <a href="#">Контакты</a>
           </li>
-          <li class="footer__nav-item">
-            <a class="footer__nav-link" href="#">Туристам</a>
+          <li>
+            <a href="#">Партнерам</a>
+          </li>
+        </ul>
+        <ul>
+          <li class="footer__nav-item--bold">
+            <a href="#">Цены</a>
+          </li>
+          <li>
+            <a href="#">Акции</a>
+          </li>
+          <li>
+            <a href="#">Туристам</a>
           </li>
         </ul>
       </div>
-
+  
       <div class="footer__bottom">
-        <a class="footer__logo" href="#">
-          <img class="footer__logo-img" src="images/footer-logo.png" alt="Лого">
-        </a>
+        <a class="footer__logo" href="#"></a>
         <a class="footer__copy" href="#">© 2023 ASIATOUR ТУРОПЕРАТОР</a>
-        <ul class="footer__contact-list">
-          <li class="footer__contact-item">
-            <a class="footer__contact-link" href="#"
-              style="background-image: url('images/icons/instagram-icon.svg');"></a>
+        <ul>
+          <li>
+            <a class="icon--in" href="#"></a>
           </li>
-          <li class="footer__contact-item">
-            <a class="footer__contact-link" href="#"
-              style="background-image: url('images/icons/telegram-icon.svg');"></a>
+          <li>
+            <a class="icon--tg" href="#"></a>
           </li>
-          <li class="footer__contact-item">
-            <a class="footer__contact-link" href="#"
-              style="background-image: url('images/icons/youtube-icon.svg');"></a>
+          <li>
+            <a class="icon--yt" href="#"></a>
           </li>
-          <li class="footer__contact-item">
-            <a class="footer__contact-link" href="#" style="background-image: url('images/icons/facebook-icon.svg');
-            background-size:40%;"></a>
+          <li>
+            <a class="icon--fb" href="#"></a>
           </li>
         </ul>
       </div>

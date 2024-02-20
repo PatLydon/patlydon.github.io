@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="msapplication-TileColor" content="#dfeeff">
   <meta name="theme-color" content="#ffffff">
-  <title>Акция</title>
+  <title>Транспорт</title>
   <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
@@ -97,7 +97,7 @@
 
 
   <main class="main">
-    <div class="top">
+    <div class="top__container">
       <div class="container">
         <div class="breadcrumbs">
           <ul class="breadcrumbs__list">
@@ -107,84 +107,58 @@
               </a>
             </li>
             <li class="breadcrumbs__item">
-              <span class="breadcrumbs__link" href="#">
+              <a class="breadcrumbs__link" href="#">
                 Иссык-куль
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__link">
+                Транспорт
               </span>
             </li>
           </ul>
         </div>
         <nav class="top__menu">
-          <ul>
-            <li>
-              <a class="top--active" href="#">РЕГИонЫ</a>
+          <ul class="top__list">
+            <li class="top__item">
+              <a class="top__link " href="#">РЕГИонЫ</a>
             </li>
-            <li>
-              <a href="#">РАЗМЕЩЕНИЕ</a>
+            <li class="top__item">
+              <a class="top__link" href="#">РАЗМЕЩЕНИЕ</a>
             </li>
-            <li>
-              <a href="#">ТРАНСПОРТ</a>
+            <li class="top__item">
+              <a class="top__link top__link--active" href="#">ТРАНСПОРТ</a>
             </li>
-            <li>
-              <a href="#">АКЦИИ</a>
+            <li class="top__item">
+              <a class="top__link" href="#">АКЦИИ</a>
             </li>
-            <li>
-              <a href="#">ЭКСКУРСИИ</a>
+            <li class="top__item">
+              <a class="top__link" href="#">ЭКСКУРСИИ</a>
             </li>
-            <li>
-              <a href="#">ТУРИСТАМ</a>
+            <li class="top__item">
+              <a class="top__link" href="#">ТУРИСТАМ</a>
             </li>
-            <li>
-              <a href="#">ЦЕНЫ</a>
+            <li class="top__item">
+              <a class="top__link" href="#">ЦЕНЫ</a>
             </li>
           </ul>
         </nav>
       </div>
     </div>
-    <section class="action-page">
+    <section class="popular transport">
       <div class="container">
-        <h2 class="title  action-page__title">НАЗВАНИЕ НОВОСТИ</h2>
-        <span>01.01.2024</span>
-        <div class="action-page__img-box" style="background-image: url('images/banner.jpg');"></div>
-        <p>
-          Центр отдыха «Аврора Плюс» находится в селе Булан-Соготту, на северном побережье озера Иссык-Куль. «Аврора
-          Плюс»
-          предлагает размещение в номерах, расположенных в таунхаусах и отдельно расположенных коттеджах. Сюда приезжают
-          для
-          комфортного отдыха с возможностью оздоровления в близлежащем санатории «Аврора». Гости комплекса могут
-          проходить
-          процедуры в корпусах санатория и посещать размещённые на его территории тренажёрный зал, бильярдную,
-          спортивные и
-          детские игровые площадки. В ресторанах и барах предлагаются европейские и национальные блюда, двери заведений
-          открыты
-          для посетителей круглые сутки. Для корпоративных клиентов оборудованы конференц-залы, предлагается выгодное
-          размещение в
-          номерах, а также содействие в организации и проведении бизнес встреч. Имеется собственный оборудованный пляж,
-          охраняемая
-          стоянка.
-        </p>
-      </div>
-    </section>
-    <section class="popular">
-      <div class="container">
-        <div class="popular__top">
-          <h2 class="popular__title">
-            Название акции
-          </h2>
-          <a class="popular__top-link" href="#">
-            Все акции
-          </a>
-        </div>
+        <h2 class="title transport__title">
+          ТРАНСПОРТ
+        </h2>
         <ul class="popular__list">
-          
           <li class="popular__item">
             <article class="popular__box">
-              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
-              <span>01.01.2024</span>
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
               <h3>
-                ЗАГЛАВИЕ АКЦИИ ЗАГЛАВИЕ АКЦИИ
+                Трансфер Минивэн
               </h3>
               <p>
-                Краткое описание новости Краткое описание новости Краткое описани новости
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
               </p>
               <a class="card-link" href="#">
                 Подробнее
@@ -194,13 +168,12 @@
 
           <li class="popular__item">
             <article class="popular__box">
-              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
-              <span>01.01.2024</span>
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
               <h3>
-                ЗАГЛАВИЕ АКЦИИ ЗАГЛАВИЕ АКЦИИ
+                Трансфер Минивэн
               </h3>
               <p>
-                Краткое описание новости Краткое описание новости Краткое описани новости
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
               </p>
               <a class="card-link" href="#">
                 Подробнее
@@ -209,21 +182,83 @@
           </li>
           <li class="popular__item">
             <article class="popular__box">
-              <div class="card-img" style="background-image: url('images/hotel-slide-1.jpg');"></div>
-              <span class="popular__date">01.01.2024</span>
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
               <h3>
-                ЗАГЛАВИЕ АКЦИИ ЗАГЛАВИЕ АКЦИИ
+                Трансфер Минивэн
               </h3>
               <p>
-                Краткое описание новости Краткое описание новости Краткое описани новости
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
               </p>
-              <a class="popular__link card-link" href="#">
+              <a class="card-link" href="#">
                 Подробнее
+              </a>
+            </article>
+          </li>
+          <li class="popular__item">
+            <article class="popular__box">
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
+              <h3>
+                Трансфер Минивэн
+              </h3>
+              <p>
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
+              </p>
+              <a class="card-link" href="#">
+                Подробнее
+              </a>
+            </article>
+          </li>
 
+          <li class="popular__item">
+            <article class="popular__box">
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
+              <h3>
+                Трансфер Минивэн
+              </h3>
+              <p>
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
+              </p>
+              <a class="card-link" href="#">
+                Подробнее
+              </a>
+            </article>
+          </li>
+          <li class="popular__item">
+            <article class="popular__box">
+              <div class="card-img" style="background-image: url('images/transport.jpg');"></div>
+              <h3>
+                Трансфер Минивэн
+              </h3>
+              <p>
+                Краткое описание транспорта Краткое описание транспорта Краткое описание транспорта
+              </p>
+              <a class="card-link" href="#">
+                Подробнее
               </a>
             </article>
           </li>
         </ul>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem
+          ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum
+          dolor sit
+          amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim
+          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
         <a class="popular__link-back back-link " href="#">
           Назад к разделу
         </a>

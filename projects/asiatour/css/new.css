@@ -1,0 +1,229 @@
+ .achievements__inner {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 24px;
+   margin-bottom: 48px;
+ }
+
+
+
+
+ .tourist h3 {
+   font-weight: 700;
+ }
+
+ .tourist p {
+   margin-bottom: 25px;
+   text-align: justify;
+ }
+
+ /* .tourist__list */
+
+
+ .tourist ul p {
+   margin-bottom: 0;
+ }
+
+ .tourist__link {
+   margin-top: 5px;
+ }
+
+ .excursion p {
+   text-align: justify;
+ }
+
+ .excursion__back-link {
+   margin-top: 48px;
+ }
+
+
+ .inclusive {
+   margin-top: 24px;
+   border: 1px solid #D5D5D5;
+   padding: 16px;
+   border-radius: 16px;
+   box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.1);
+ }
+
+ .inclusive h3 {
+   font-weight: 700;
+   padding: 12px 32px 24px 48px;
+   margin-bottom: 12px;
+   position: relative;
+
+ }
+
+ .inclusive h3::before {
+   position: absolute;
+   content: '';
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url('../images/icons/inclusive-decor.svg');
+   top: 8px;
+   left: 8px;
+   height: 27px;
+   width: 27px;
+ }
+
+
+ .inclusive h3::after {
+   position: absolute;
+   content: '';
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url('../images/icons/inclusive-title-decor.svg');
+   height: 2px;
+   width: 100%;
+   left: 0;
+   right: 0;
+   bottom: 0;
+ }
+
+
+
+ .inclusive h3.inclusive__title--not::before {
+   background-image: url('../images/icons/inclusive-decor-not.svg');
+ }
+
+ .inclusive li {
+   position: relative;
+   padding-left: 25px;
+
+ }
+
+ .inclusive li::before {
+   position: absolute;
+   content: '';
+   height: 2px;
+   width: 2px;
+   background-color: #000;
+   top: 50%;
+   transform: translateY(-50%);
+   left: 13px;
+ }
+
+ .partners h2 {
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 38px;
+   text-transform: uppercase;
+   color: #000;
+ }
+
+
+
+
+ @media(max-width:992px) {
+
+   /* партнерам */
+
+   .achievements__inner {
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+   .achievements__img-box {
+     max-width: 500px;
+   }
+
+   /* партнерам */
+
+ }
+
+ @media(max-width:768px) {
+
+   /* партнерам */
+
+   .achievements__inner {
+     gap: 12px;
+   }
+
+   /* партнерам */
+ }
+
+ @media(max-width:576px) {
+
+   /* екскурсии */
+
+   .excursion__back-link {
+     margin-top: 0;
+   }
+
+   .inclusive {
+     margin-top: 15px;
+     padding: 10px;
+
+   }
+
+   .inclusive h3 {
+     padding: 12px 24px 12px 36px;
+     font-size: 18px;
+     line-height: 22px;
+   }
+
+   .inclusive h3::before {
+     left: 0;
+   }
+
+   .inclusive li {
+     font-size: 16px;
+     line-height: 20px;
+   }
+
+   /* екскурсии */
+
+   /* интернациональний тур */
+
+
+   .international__title {
+     margin-top: 0;
+   }
+
+   .international__link {
+     margin-top: 0;
+   }
+
+   /* интернациональний тур */
+
+   /* партнерам */
+   .partners {
+     margin-bottom: 24px;
+
+   }
+
+   .partners p {
+     margin-bottom: 10px;
+   }
+
+   .partners h2 {
+     font-size: 20px;
+     line-height: 26px;
+     padding-bottom: 10px;
+   }
+
+   .partners a {
+     padding: 10px 16px;
+     margin-bottom: 10px;
+   }
+
+   .about {
+     margin-bottom: 24px;
+   }
+
+
+
+   .achievements__inner {
+     grid-template-columns: repeat(1, 1fr);
+   }
+
+   /* партнерам */
+
+   /* туристам */
+
+   .tourist p {
+     margin-bottom: 15px;
+   }
+
+   /* туристам */
+ }
