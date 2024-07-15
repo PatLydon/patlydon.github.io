@@ -1,0 +1,183 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.game {
+  height: 400px;
+  width: 1200px;
+  /* border-bottom: 3px solid #dca82f; */
+  margin: auto;
+  border: 3px solid rgb(127, 93, 13);
+  margin-top: 25%;
+  /* background-image: url("images/ground.png");
+  position: relative;
+  top: 200px;
+  background-size: 600px 200px;
+  background-repeat: no-repeat; */
+  position: relative;
+}
+.game::after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: -2;
+  background-color: #2294f1;
+}
+
+/* .bg{
+  display: inline;
+  margin: 3px;
+} */
+#ground-start {
+  animation: bg-move 4s linear infinite;
+  position: relative;
+  top: 70px;
+
+  z-index: -1;
+  height: 200px;
+}
+
+.ground {
+  position: relative;
+  bottom: 0;
+  top: 106px;
+  z-index: -1;
+
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ground-box {
+  display: flex;
+  width: 200%;
+  animation: bg-move 3s linear infinite;
+}
+
+.box {
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+
+.box img {
+  width: 25%;
+  margin: 0;
+  white-space: nowrap;
+  margin: 0 -2px;
+}
+
+@keyframes bg-move {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+/* .game::after {
+  position: absolute;
+  content: "";
+  background-image: url("images/ground.png");
+  top: 125px;
+  background-size: 600px 100px;
+  height: 100px;
+  width: 600px;
+  background-repeat: no-repeat; 
+  z-index: -1;
+  animation: ground 2s infinite linear;
+} 
+@keyframes ground {
+  0% {
+    left: 580px;
+  }
+
+  100% {
+    left: -20px;
+  }
+/* } */
+
+#kenguru {
+  height: 100px;
+  width: 100px;
+  background-image: url("images/kenguru.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 274px;
+  left: 50px;
+  transform: rotateY(180deg);
+
+}
+
+#cactus {
+  width: 40px;
+  height: 80px;
+  background-image: url("images/cactus.png");
+  background-size: 40px 80px;
+  position: relative;
+  top: 194px;
+  transform: rotateY(180deg);
+  left: 1160px;
+  animation: cactusMove 1s infinite linear;
+  /* border: 1px solid red */
+}
+
+@keyframes cactusMove {
+  0% {
+    left: 1160px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+.jump {
+  animation: jump .4s linear;
+
+}
+
+@keyframes jump {
+  0% {
+    top: 274px;
+  }
+
+  30% {
+    top: 230px;
+    /* left:60px; */
+  }
+
+  50% {
+    top: 114px;
+    /* left: 75px; */
+  }
+
+  80% {
+    top: 230px;
+    /* left: 90px; */
+  }
+
+  100% {
+    top: 274px;
+    /* left: 120px; */
+  }
+}
