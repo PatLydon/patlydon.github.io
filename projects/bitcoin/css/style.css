@@ -72,9 +72,6 @@ body {
   color: #4b4f58;
   background-color: #f5f5f5;
 }
-.wrapper{
-  overflow: hidden;
-}
 
 .container {
   max-width: 1140px;
@@ -116,10 +113,25 @@ body {
   justify-content: flex-start;
 }
 
-.logo {
-  max-width: 150px;
-  width: 100%;
-  padding: 10px;
+
+
+.logo__box {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+
+.iq {
+  background-color: #4B0082;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-left: 5px;
+  line-height: 1.1;
 }
 
 .burger {
@@ -802,6 +814,8 @@ p.--list::before {
   max-width: 166px;
   padding: 10px;
 }
+.logo__box--footer{
+}
 
 .footer__menu-list {
   display: -webkit-box;
@@ -872,6 +886,7 @@ p.--list::before {
 .copy__link {
   padding: 13px 20px;
 }
+
 @media(max-width:992px) {
   .header__inner img {
     width: 100%;
@@ -1070,4 +1085,3 @@ p.--list::before {
     max-height: 260px;
   }
 }
-
