@@ -78,3 +78,9 @@ button img{
 .wind-speed span {
   display: block;
 }
+
+@media(max-width:768px){
+  .wrapper {
+  margin-top:40px;
+}
+}
