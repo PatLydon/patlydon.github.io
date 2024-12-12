@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FUN 88</title>
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -217,18 +217,11 @@ How to Install a FUN88 App on Your Mobile Device Install the app in a couple of 
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     const downloadButton = document.querySelector('.header__link');
-    // Зберігаємо початкову позицію кнопки відносно документа
     const initialOffset = downloadButton.getBoundingClientRect().top + window.pageYOffset;
-
     window.addEventListener('scroll', function () {
       if (window.innerWidth <= 768) {
-        // Визначаємо поточну позицію скролу
         const currentScroll = window.pageYOffset;
-
-        // Розраховуємо відстань від початкової позиції
         const distance = initialOffset - currentScroll;
-
-        // Якщо відстань стала 15px або менше - робимо кнопку фіксованою
         if (distance <= 15) {
           if (!downloadButton.classList.contains('sticky')) {
             downloadButton.classList.add('sticky');
@@ -241,8 +234,5 @@ How to Install a FUN88 App on Your Mobile Device Install the app in a couple of 
   });
   </script>
   
-
-
-  <!-- <script src="js/main.js"></script> -->
 </body>
 </html>
