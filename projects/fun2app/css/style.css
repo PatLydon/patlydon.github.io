@@ -609,7 +609,7 @@ body {
   }
 
   .header__link.sticky {
-    width:95%;
+    width:92%;
     position: fixed;
     top: 15px;
     z-index: 2;
