@@ -1,0 +1,34 @@
+<svg width="60.000000" height="60.000000" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip10_15667">
+			<rect id="monitor-page--Streamline-Ultimate" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="monitor-page--Streamline-Ultimate" rx="0.000000" width="59.000000" height="59.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip10_15667)">
+		<path id="Vector" d="M1.25 43.75L1.25 16.25C1.25 15.58 1.51 14.95 1.98 14.48C2.44 14.01 3.08 13.75 3.75 13.75L56.25 13.75C56.91 13.75 57.55 14.01 58.01 14.48C58.48 14.95 58.75 15.58 58.75 16.25L58.75 43.75L1.25 43.75Z" fill="#FF5B29" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M45 13.75L3.75 13.75C3.08 13.75 2.44 14.01 1.98 14.48C1.51 14.95 1.25 15.58 1.25 16.25L1.25 43.75L15 43.75L45 13.75Z" fill="#FFBDAE" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M1.25 43.75L58.75 43.75L58.75 48.75C58.75 49.41 58.48 50.04 58.01 50.51C57.55 50.98 56.91 51.25 56.25 51.25L3.75 51.25C3.08 51.25 2.44 50.98 1.98 50.51C1.51 50.04 1.25 49.41 1.25 48.75L1.25 43.75Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M53.75 13.75L56.25 13.75C56.91 13.75 57.55 14.01 58.01 14.48C58.48 14.95 58.75 15.58 58.75 16.25L58.75 48.75C58.75 49.41 58.48 50.04 58.01 50.51C57.55 50.98 56.91 51.25 56.25 51.25L3.75 51.25C3.08 51.25 2.44 50.98 1.98 50.51C1.51 50.04 1.25 49.41 1.25 48.75L1.25 16.25C1.25 15.58 1.51 14.95 1.98 14.48C2.44 14.01 3.08 13.75 3.75 13.75L6.25 13.75" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M26.25 51.25L33.75 51.25L33.75 58.75L26.25 58.75L26.25 51.25Z" fill="#FFBDAE" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M33.75 51.25L33.75 58.75L26.25 58.75L26.25 51.25L33.75 51.25Z" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M11.25 11.25L48.75 11.25L48.75 38.75L11.25 38.75L11.25 11.25Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M48.75 11.25L11.25 11.25L11.25 3.75C11.25 3.08 11.51 2.45 11.98 1.98C12.44 1.51 13.08 1.25 13.75 1.25L46.25 1.25C46.91 1.25 47.55 1.51 48.01 1.98C48.48 2.45 48.75 3.08 48.75 3.75L48.75 11.25Z" fill="#FFBDAE" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M11.25 38.75L11.25 3.75C11.25 3.08 11.51 2.45 11.98 1.98C12.44 1.51 13.08 1.25 13.75 1.25L46.25 1.25C46.91 1.25 47.55 1.51 48.01 1.98C48.48 2.45 48.75 3.08 48.75 3.75L48.75 38.75" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M17.5 18.75L25 18.75C25 18.75 26.25 18.75 26.25 20L26.25 27.5C26.25 27.5 26.25 28.75 25 28.75L17.5 28.75C17.5 28.75 16.25 28.75 16.25 27.5L16.25 20C16.25 20 16.25 18.75 17.5 18.75Z" fill="#FF5B29" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M25.88 19.11C25.76 18.99 25.62 18.9 25.48 18.84C25.32 18.78 25.16 18.75 25 18.75L17.5 18.75C17.16 18.75 16.85 18.88 16.61 19.11C16.38 19.34 16.25 19.66 16.25 20L16.25 27.5C16.25 27.66 16.28 27.82 16.34 27.97C16.4 28.13 16.5 28.26 16.61 28.38L25.88 19.11Z" fill="#FFBDAE" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M17.5 58.75L42.5 58.75" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M25 18.75C25 18.75 26.25 18.75 26.25 20L26.25 27.5C26.25 27.5 26.25 28.75 25 28.75L17.5 28.75C17.5 28.75 16.25 28.75 16.25 27.5L16.25 20C16.25 20 16.25 18.75 17.5 18.75L25 18.75Z" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M31.5 26.25L43.75 26.25" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M31.5 20L43.75 20" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M16.25 33.75L43.75 33.75" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M1.25 43.75L58.75 43.75" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M11.25 11.25L48.75 11.25" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M17.22 6.35C17.32 6.42 17.4 6.52 17.45 6.63C17.5 6.75 17.51 6.87 17.48 6.99C17.46 7.11 17.4 7.23 17.31 7.31C17.23 7.4 17.11 7.46 16.99 7.48C16.87 7.51 16.75 7.5 16.63 7.45C16.52 7.4 16.42 7.32 16.35 7.22C16.28 7.11 16.25 6.99 16.25 6.87C16.25 6.7 16.31 6.55 16.43 6.43C16.55 6.31 16.71 6.25 16.87 6.25C17 6.25 17.12 6.28 17.22 6.35Z" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M22.22 6.35C22.32 6.42 22.4 6.52 22.45 6.63C22.5 6.75 22.51 6.87 22.48 6.99C22.46 7.11 22.4 7.23 22.31 7.31C22.23 7.4 22.11 7.46 21.99 7.48C21.87 7.51 21.75 7.5 21.63 7.45C21.52 7.4 21.42 7.32 21.35 7.22C21.28 7.11 21.25 6.99 21.25 6.87C21.25 6.7 21.31 6.55 21.43 6.43C21.55 6.31 21.71 6.25 21.87 6.25C22 6.25 22.12 6.28 22.22 6.35Z" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M27.22 6.35C27.32 6.42 27.4 6.52 27.45 6.63C27.5 6.75 27.51 6.87 27.48 6.99C27.46 7.11 27.4 7.23 27.31 7.31C27.23 7.4 27.11 7.46 26.99 7.48C26.87 7.51 26.75 7.5 26.63 7.45C26.52 7.4 26.42 7.32 26.35 7.22C26.28 7.11 26.25 6.99 26.25 6.87C26.25 6.7 26.31 6.55 26.43 6.43C26.55 6.31 26.71 6.25 26.87 6.25C27 6.25 27.12 6.28 27.22 6.35Z" stroke="#252222" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linejoin="round"/>
+	</g>
+</svg>
