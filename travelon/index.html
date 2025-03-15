@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тревелон</title>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Jost:wght@600&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <!-- <a href="#" class="burger-btn burger-btn--desc">
+        <img src="images/burger.svg" alt="лого">
+      </a> -->
+      <div class="fixed-header">
+        <a href="#" class="fixed-header__logo">
+          <img src="images/logo-header.svg" alt="лого" height="40">
+        </a>
+        <a href="#" class="burger-btn burger-btn--fixed">
+          <img src="images/burger.svg" alt="лого">
+        </a>
+      </div>
+      <aside class="aside">
+
+        <!-- Side Navigation -->
+        <!-- <a href="#" class="burger-btn">
+          <img src="images/burger.svg" alt="лого">
+        </a> -->
+
+        <nav class="side-nav">
+          <ul class="side-nav-list">
+            <li>
+              <a href="#hero" class="side-nav-item active" data-section="hero">
+                <img src="images/header-nav.svg" alt="Головна" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#advantages" class="side-nav-item" data-section="advantages">
+                <img src="images/advanteges-nav.svg" alt="Головна" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#reasons" class="side-nav-item" data-section="reasons">
+                <img src="images/reasons-nav.svg" alt="Причини" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#models" class="side-nav-item" data-section="models">
+                <img src="images/models-nav.svg" alt="Співпраця" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#agencies" class="side-nav-item" data-section="agencies">
+                <img src="images/agency-nav.svg" alt="Агенції" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+            <li>
+              <a href="#contacts" class="side-nav-item" data-section="contacts">
+                <img src="images/contact-nav.svg" alt="Контакти" class="nav-icon">
+                <span class="nav-line"></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-list">
+          <li class="contacts-list__item">
+            <a href="tel:+380443334433" class="contacts-list__link">
+              <img src="images/phone-icon.svg" alt="телефон">
+            </a>
+          </li>
+          <li class="contacts-list__item">
+            <a href="mailto:fr@travelon.to" class="contacts-list__link">
+              <img src="images/mail-icon.svg" alt="пошта">
+            </a>
+          </li>
+          <li class="contacts-list__item">
+            <a href="#" class="contacts-list__link">
+              <img src="images/tg-white-icon.svg" alt="пошта">
+            </a>
+          </li>
+
+        </ul>
+
+      </aside>
+      <div class="form-box">
+        <div class="form-box__inner">
+          <h3 class="form-box__title">
+            Приєднуйся до команди професіоналів
+            <button class="form-box__btn" type="button">
+              <img src="images/form-close.svg" alt="close">
+            </button>
+          </h3>
+          <form action="#" class="form" id="modal-form">
+            <div class="form__inner">
+              <!-- Прихований інпут для плану -->
+              <input type="hidden" id="selected-plan" name="selected_plan">
+              <input type="hidden" id="selected-price" name="selected_price">
+
+              <!-- Інші поля форми -->
+              <label class="form__label">
+                <input type="text" class="form__input" name="name" required>
+                <span class="form__label-text">Ім'я</span>
+              </label>
+              <label class="form__label">
+                <input type="email" class="form__input" name="email" required>
+                <span class="form__label-text">E-mail</span>
+              </label>
+              <label class="form__label">
+                <input type="tel" class="form__input" name="phone" required>
+                <span class="form__label-text">Телефон</span>
+              </label>
+              <!-- Радіо кнопки -->
+              <div class="radio-btns">
+                <input type="radio" class="radio-btn" name="agency-type-modal" id="modal-radio-1" checked>
+                <label for="modal-radio-1" class="radio-btn__label">
+                  <span class="radio-btn__text">Нова агенція</span>
+                </label>
+
+                <input type="radio" class="radio-btn" name="agency-type-modal" id="modal-radio-2">
+                <label for="modal-radio-2" class="radio-btn__label">
+                  <span class="radio-btn__text">Діюча агенція</span>
+                </label>
+              </div>
+              <button type="submit" class="form__btn">
+                Відправити заявку
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Блок подяки -->
+      <div class="thank-you-box">
+        <h3 class="thank-you-box__title">Дякуємо за заявку!</h3>
+        <p class="thank-you-box__text">Наш менеджер зв'яжеться з вами найближчим часом для обговорення деталей.</p>
+        <button class="thank-you-box__btn">Зрозуміло</button>
+      </div>
+
+      <div class="burger-menu" style="background-image: url('images/menu-decor.svg');">
+        <div class="burger-menu__top">
+          <a href="#hero" data-section="hero" class="burger-menu__top-link burger-menu__top-link--logo">
+            <img src="images/menu-logo.svg" alt="лого">
+          </a>
+          <a href="#" class="burger-menu__top-link burger-menu__top-link--close">
+            <img src="images/menu-close.svg" alt="закрити">
+          </a>
+        </div>
+        <nav class="burger-menu__nav">
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+              <a href="#hero" data-section="hero" class="burger-menu__link">Головний екран</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#advantages" data-section="advantages" class="burger-menu__link">Переваги</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#agencies" data-section="agencies" class="burger-menu__link">Моделі співпраці</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#models" data-section="models" class="burger-menu__link">Наші агенції</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#contacts" data-section="contacts" class="burger-menu__link">Контакти</a>
+            </li>
+            <li class="burger-menu__item">
+              <button class="header__btn form-btn">
+                <span>Залишити заявку</span>
+                <svg class="form-btn-arrow" width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0211 5.18664H1.46308C0.95257 5.18664 0.538723 5.60049 0.538723 6.11099C0.538723 6.6215 0.95257 7.03535 1.46308 7.03535H14.0211L11.0238 10.0327C10.6628 10.3937 10.6628 10.9789 11.0238 11.3399C11.3848 11.7009 11.97 11.7009 12.331 11.3399L16.2527 7.41822C16.9747 6.69626 16.9747 5.52572 16.2527 4.80376L12.331 0.882065C11.97 0.521083 11.3848 0.521083 11.0238 0.882065C10.6628 1.24305 10.6628 1.82831 11.0238 2.1893L14.0211 5.18664Z" fill="currentColor" />
+                </svg>
+              </button>
+            </li>
+          </ul>
+
+        </nav>
+
+        <div class="burger-menu__bottom">
+          <a href="#" class="burger-menu__bottom-link">
+            <img src="images/phone-icon.svg" alt="телефон">
+            +38 044 333 44 33
+          </a>
+          <a href="#" class="burger-menu__bottom-link">
+            <img src="images/mail-icon.svg" alt="пошта">
+            @frtravelon
+          </a>
+          <a href="#" class="burger-menu__bottom-link">
+            <img src="images/tg-white-icon.svg" alt="телеграм">
+            fr@travelon.to
+          </a>
+
+        </div>
+
+      </div>
+      <div class="wrapper__content">
+        <header class="header" id="hero" style="background-image: url('images/header-bg5.png');">
+          <div class="container">
+            <div class="header__inner">
+              <nav class="header__menu">
+                <ul class="header__menu-list header__menu-list--left">
+                  <li class="header__menu-item">
+                    <a href="#advantages" class="header__menu-link">Переваги</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#models" class="header__menu-link">Моделі співпраці</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#agencies" class="header__menu-link">Наші агенції</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#contacts" class="header__menu-link">Контакти</a>
+                  </li>
+                </ul>
+                <ul class="header__menu-list header__menu-list--right">
+                  <li class="header__menu-item">
+                    <a href="tel:+380443334433" class="header__menu-link">+38 044 333 44 33</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="mailto:fr@travelon.to" class="header__menu-link">fr@travelon.to</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="header__content">
+                <div class="header__content-box">
+                  <a href="#" class="logo">
+                    <img class="logo__img" src="images/logo.svg" alt="лого">
+                  </a>
+                  <p class="header__content-text">
+                    Об'єднання турагенцій в професійну мережу, де є підтримка, комфорт і вигідна співпраця
+                  </p>
+                  <h1 class="sr-only">
+                    Тревелон
+                  </h1>
+                  <button class="header__btn form-btn">
+                    <span>Залишити заявку</span>
+                    <svg class="form-btn-arrow" width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0211 5.18664H1.46308C0.95257 5.18664 0.538723 5.60049 0.538723 6.11099C0.538723 6.6215 0.95257 7.03535 1.46308 7.03535H14.0211L11.0238 10.0327C10.6628 10.3937 10.6628 10.9789 11.0238 11.3399C11.3848 11.7009 11.97 11.7009 12.331 11.3399L16.2527 7.41822C16.9747 6.69626 16.9747 5.52572 16.2527 4.80376L12.331 0.882065C11.97 0.521083 11.3848 0.521083 11.0238 0.882065C10.6628 1.24305 10.6628 1.82831 11.0238 2.1893L14.0211 5.18664Z" fill="currentColor" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="header__img-box">
+                  <!-- <img src="images/header-img.png" alt="тренер" class="header__img"> -->
+                  <div class="header-decor">
+                    <img src="images/header-decor-left.svg" alt="декор">
+                    <img src="images/header-decor-right.svg" alt="декор">
+                    <img src="images/header-decor-bottom.svg" alt="декор">
+                  </div>
+                </div>
+              </div>
+              <div class="header__bottom">
+                <a href="#" class="header__bottom-link">
+                  Маєте питання?
+                  <img src="images/telegram-icon.svg" alt="декор">
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </header>
+
+   
+        <section id="advantages" class="advantages">
+          <div class="container">
+            <div class="advantages__inner">
+              <h2>Наші переваги</h2>
+              <div class="advantages__grid">
+                <ul class="advantages__list">
+                  <li class="advantages__item">
+                    <img src="images/advant-1.svg" alt="декор">
+
+                    <p>
+                      <span>Тури до 15 країн що</span> задовольняють 80% потреб туристів
+                    </p>
+
+                  </li>
+
+                  <li class="advantages__item">
+                    <img src="images/advant-5.svg" alt="декор">
+
+                    <p>
+                      Відділ <span>корпоративного туризму</span>
+                    </p>
+
+                  </li>
+                  <li class="advantages__item">
+                    <img src="images/advant-2.svg" alt="декор">
+
+                    <p>
+                      <span>Блоки на чартерних рейсах</span> популярних напрямків
+                    </p>
+
+                  </li>
+
+                  <li class="advantages__item">
+                    <img src="images/advant-6.svg" alt="декор">
+
+                    <p>
+                      <span>Преміум відділ</span> для заявок вибагливих клієнтів
+                    </p>
+
+                  </li>
+                  <li class="advantages__item">
+                    <img src="images/advant-3.svg" alt="декор">
+
+                    <p>
+                      <span>Особистий куратор</span> на всіх метапах роботи
+                    </p>
+
+                  </li>
+                  <li class="advantages__item">
+                    <img src="images/advant-7.svg" alt="декор">
+
+                    <p>
+                      <span>Бронювання</span> квитків, трансферів, страхування та інших послуг
+                    </p>
+
+                  </li>
+                  <li class="advantages__item">
+                    <img src="images/advant-4.svg" alt="декор">
+
+                    <p>
+                      Відділ <span>індивідуальних</span> та <span>нестандартних</span> запитів
+                    </p>
+
+                  </li>
+
+                  <li class="advantages__item">
+                    <img src="images/advant-8.svg" alt="декор">
+
+                    <p>
+                      <span>Актуальні динамічні пакети</span> на регулярних рейсах
+                    </p>
+
+                  </li>
+                  <li class="advantages__item">
+                    <img src="images/advant--color.svg" alt="декор">
+
+                    <p>
+                      <span>Надаємо 100 000 грн</span> на відкриття офісу!
+                    </p>
+
+                  </li>
+                </ul>
+                <div class="advantages__bg">
+                  <img src="images/Join.svg" class="advantages__bg-item advantages__bg-item--join" alt="декор">
+                  <img src="images/Our.svg" class="advantages__bg-item advantages__bg-item--our" alt="декор">
+                  <img src="images/Club.svg" class="advantages__bg-item advantages__bg-item--club" alt="декор">
+                </div>
+                
+              </div>
+            </div>
+
+          </div>
+
+        
+          <div class="advanteges__form-box">
+
+            <div class="container">
+              <div class="advanteges__form-inner">
+                <div class="form-image">
+                  <img src="images/adv-form.png" alt="декор">
+                </div>
+                <div class="form-box__inner">
+                  <h3 class="form-box__title">
+                    Дізнатися більше
+
+                  </h3>
+                  <form action="#" class="form" id="advantages-form">
+                    <div class="form__inner">
+                      <!-- Додаємо приховані поля -->
+                      <input type="hidden" name="selected_plan" value="не обрано">
+                      <input type="hidden" name="selected_price" value="не обрано">
+                      <label class="form__label">
+                        <input type="text" class="form__input" required>
+                        <span class="form__label-text">Ім'я</span>
+                      </label>
+                      <label class="form__label">
+                        <input type="email" class="form__input" required placeholder="E-mail">
+                        <span class="form__label-text">E-mail</span>
+                      </label>
+                      <label class="form__label">
+                        <input type="tel" class="form__input" required placeholder="Телефон">
+                        <span class="form__label-text">Телефон</span>
+                      </label>
+                      <div class="radio-btns">
+                        <input type="radio" class="radio-btn" name="agency-type-advantages" id="advantages-radio-1" checked>
+                        <label for="advantages-radio-1" class="radio-btn__label">
+                          <span class="radio-btn__text">Нова агенція</span>
+                        </label>
+
+                        <input type="radio" class="radio-btn" name="agency-type-advantages" id="advantages-radio-2">
+                        <label for="advantages-radio-2" class="radio-btn__label">
+                          <span class="radio-btn__text">Діюча агенція</span>
+                        </label>
+                      </div>
+                      <button type="submit" class="form__btn">
+                        Відправити заявку
+                      </button>
+
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+   
+        <section id="reasons" class="reasons" style="background-image: url('images/reasons-bg.svg');">
+          <div class="container">
+           <div class="reason__title-box">
+            <h2 class="reasons__title title"><span>15</span> причин <div>чому з нами <span>краще</span></div>
+            </h2>
+           </div>
+            <div class="reasons-grid">
+              <div id="grid-container" class="grid-container"></div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section id="models" class="models">
+          <div class="container">
+            <h2 class="models__title title">Моделі співпраці</h2>
+            <div class="models__inner">
+              <div class="pricing-wrapper">
+                <table class="pricing-table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>
+                        <h3>Онлайн</h3>
+                        <p>Працюйте комфортно, де б ви не знаходилися</p>
+                      </th>
+                      <th>
+                        <h3>Оптимальний</h3>
+                        <p>Допоможемо створити ідеальний робочий простір</p>
+
+                      </th>
+                      <th>
+                        <h3>Профі</h3>
+                        <p>Збільшимо продажі та прискоримо зростання</p>
+
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Надаємо бюджет на брендування фасаду та інтер'єру офісу</td>
+                      <td>—</td>
+                      <td>
+                        <div class="price">100<span>*</span> тис. грн</div>
+                      </td>
+                      <td>
+                        <div class="price">100<span>*</span> тис. грн</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Брендування соцмережах і каналів комунікації</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Підвищена комісія на тури інших ТО</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>ТурСканер та CRM</td>
+                      <td>2 користувача</td>
+                      <td>2 користувача</td>
+                      <td>2 користувача</td>
+                    </tr>
+                    <tr>
+                      <td>Ліди безкоштовно (шт/міс)</td>
+                      <td>20</td>
+                      <td>20</td>
+                      <td>50</td>
+                    </tr>
+                    <tr>
+                      <td>Доступ до біржі заявок</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Власний сайт з пошуком та бронюванням</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Власний сайт з пошуком та бронюванням</td>
+                      <td style=" border-bottom: 1px solid #FF6B5A">—</td>
+                      <td style=" border-bottom: 1px solid #FF6B5A" class="check --mod-text">✓</td>
+                      <td style=" border-bottom: 1px solid #FF6B5A" class="check">✓</td>
+                    </tr>
+                    <!-- <tr class="highlighted-row">
+                      <td colspan="4">При виконанні плану Тревелон</td>
+                    </tr>  -->
+                    <tr>
+                      <td>Комісія на пакетні тури ТО Тревелон</td>
+                      <td>підвищена</td>
+                      <td>підвищена</td>
+                      <td>найвища</td>
+                    </tr>
+                    <tr>
+                      <td>Безкоштовні інфотури на масові напрямки</td>
+                      <td>1</td>
+                      <td>1</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Інфотури на інші напрямки</td>
+                      <td>—</td>
+                      <td>50%</td>
+                      <td>50%</td>
+                    </tr>
+                    <tr>
+                      <td>Розміщення офісу на google картах + реклама</td>
+                      <td>—</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Захист території (500/1000 м)</td>
+                      <td>—</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Брендована продукція</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                    <tr>
+                      <td>Сумісне фінансування реклами 50 на 50 (за узгодженням, на рік)</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                      <td class="check">✓</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td></td>
+                      <td><button class="form-btn" data-plan-type="Онлайн" data-plan-price="0">Обрати</button></td>
+                      <td><button class="form-btn" data-plan-type="Оптимальний" data-plan-price="100000">Обрати</button></td>
+                      <td><button class="form-btn" data-plan-type="Профі" data-plan-price="100000">Обрати</button></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <p class="pricing-text">
+                <span>*</span> Залежно від розташування та якості фасаду майбутнього офісу, сума може бути переглянута. Бюджет передусім витрачається на брендування фасаду та інтер'єру офісу, залишок суми — на меблі та сувенірну продукцію.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sales-plan" class="sales-plan">
+          <div class="container">
+            <h2 class="sales-plan__title title">План продажів</h2>
+            <div class="sales-plan__inner">
+              <div class="sales-plan__content">
+                <p>
+                  Дізнайтесь більше про плани, та способи їх досягнення з нами. Надаємо підтримку кожному агенту для зростання та комфортної роботи.
+                </p>
+
+                <button class="form-btn">
+                  <span>Залишити зaпит</span>
+                  <svg class="form-btn-arrow" width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.0211 5.18664H1.46308C0.95257 5.18664 0.538723 5.60049 0.538723 6.11099C0.538723 6.6215 0.95257 7.03535 1.46308 7.03535H14.0211L11.0238 10.0327C10.6628 10.3937 10.6628 10.9789 11.0238 11.3399C11.3848 11.7009 11.97 11.7009 12.331 11.3399L16.2527 7.41822C16.9747 6.69626 16.9747 5.52572 16.2527 4.80376L12.331 0.882065C11.97 0.521083 11.3848 0.521083 11.0238 0.882065C10.6628 1.24305 10.6628 1.82831 11.0238 2.1893L14.0211 5.18664Z" fill="currentColor"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="sales-plan__img">
+                <img src="images/dog.png" alt="декор">
+                <div class="sales-plan__img-bg">
+                  <img src="images/sales-plan-decor-1.svg" alt="декор">
+                  <img src="images/sales-plan-decor-2.svg" alt="декор">
+                  <img src="images/sales-plan-decor-3.svg" alt="декор">
+                  <img src="images/sales-plan-decor-4.svg" alt="декор">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+       
+        <section id="agencies" class="agencies">
+          <div class="container">
+            <div class="agencies__top">
+              <div class="agencies__content">
+                <h2 class="agencies__title title">Наші агенції</h2>
+                <p>
+                  <span>Тревелон</span> пропонує реалізацію офісу твоєї мрії у вигляді комфортного фасадного приміщення, або затишного офісу чи остівця в ТРЦ.
+                </p>
+              </div>
+              <div class="agencies__counter-box">
+                <p class="agencies__counter-box-title">
+                  Стань наступним
+                </p>
+                <div class="agencies__counter-box-item">
+                  <span class="agencies__counter-box-number" data-counter-end="4">0000</span>
+                  <p class="agencies__counter-box-text">
+                    Діючих офісів
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <div class="slider-box">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide">
+                    <div class="slider__item-inner">
+                      <img src="images/slider-1.png" alt="декор">
+                      <div class="sticky-box">
+                        <p>Офіс турагенції Тревелону у Кам'янець-Подільському</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__item-inner">
+                      <img src="images/slider-1.png" alt="декор">
+                      <div class="sticky-box">
+                        <p>Офіс турагенції Тревелону у Кам'янець-Подільському</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__item-inner">
+                      <img src="images/slider-1.png" alt="декор">
+                      <div class="sticky-box">
+                        <p>Офіс турагенції Тревелону у Кам'янець-Подільському</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__item-inner">
+                      <img src="images/slider-1.png" alt="декор">
+                      <div class="sticky-box">
+                        <p>Офіс турагенції Тревелону у Кам'янець-Подільському</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+
+            </div>
+            <div class="agency__bottom">
+              <div class="agency__bottom-inner">
+                <img src="images/agency-1.jpg" alt="декор">
+                <div class="agency__bottom-content">
+                  <h3 class="agency__bottom-title title">онлайн агенція</h3>
+                  <p class="agency__bottom-text">
+                    <span>Якщо працюєш онлайн</span>, ми пропонуємо розробку власного сайту. Окрім цього ти отримаєш консультацію маркетолога та нашу підтримку на рекламу.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacts" class="contacts">
+          <div class="container">
+            <div class="contacts__inner">
+              <div class="contacts__content">
+               <div class="contacts__content-inner">
+                <h2 class="contacts__title title"> Наші Контакти</h2>
+                <h3 class="contacts__subtitle">
+                  Ольга Євстарова
+                  <span>Директор по франчайзингу</span>
+                </h3>
+                <ul class="contacts__list">
+                  <li class="contacts__item">
+                    <a href="#" class="contacts__item-link">
+                      <img src="images/phone-icon.svg" alt="телефон">
+                      +38 044 333 44 33
+                    </a>
+                  </li>
+                  <li class="contacts__item">
+                    <a href="#" class="contacts__item-link">
+                      <img src="images/mail-icon.svg" alt="пошта">
+                      @frtravelon
+                    </a>
+                  </li>
+                  <li class="contacts__item">
+                    <a href="#" class="contacts__item-link">
+                      <img src="images/tg-white-icon.svg" alt="телеграм">
+                      fr@travelon.to
+                    </a>
+                  </li>
+                
+                </ul>
+                </div>
+                <div class="contacts__img-box">
+                  <img class="contacts__img" src="images/Olga.png" alt="декор">
+                </div>
+                <div class="contacts__decor-box">
+                  <img class="contacts__decor" src="images/Olga-decor-1.svg" alt="декор">
+                  <img class="contacts__decor" src="images/Olga-decor-2.svg" alt="декор">
+                </div>
+              </div>
+              <div class="form-box__inner">
+                <h3 class="form-box__title">
+                  Приєднатися до клубу
+
+                </h3>
+                <form action="#" class="form" id="contacts-section-form">
+                  <div class="form__inner">
+                    <!-- Додаємо приховані поля -->
+                    <input type="hidden" name="selected_plan" value="не обрано">
+                    <input type="hidden" name="selected_price" value="не обрано">
+                    <label class="form__label">
+                      <input type="text" class="form__input" required>
+                      <span class="form__label-text">Ім'я</span>
+                    </label>
+                    <label class="form__label">
+                      <input type="email" class="form__input" required placeholder="E-mail">
+                      <span class="form__label-text">E-mail</span>
+                    </label>
+                    <label class="form__label">
+                      <input type="tel" class="form__input" required placeholder="Телефон">
+                      <span class="form__label-text">Телефон</span>
+                    </label>
+                    <div class="radio-btns">
+                      <input type="radio" class="radio-btn" name="agency-type-contacts" id="contacts-form-radio-1" checked>
+                      <label for="contacts-form-radio-1" class="radio-btn__label">
+                        <span class="radio-btn__text">Нова агенція</span>
+                      </label>
+
+                      <input type="radio" class="radio-btn" name="agency-type-contacts" id="contacts-form-radio-2">
+                      <label for="contacts-form-radio-2" class="radio-btn__label">
+                        <span class="radio-btn__text">Діюча агенція</span>
+                      </label>
+                    </div>
+                    <button type="submit" class="form__btn">
+                      Відправити заявку
+                    </button>
+
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__inner">
+
+
+
+              <div class="footer__nav">
+                <div class="footer__logo">
+                  <a href="#" class="logo">
+                    <img src="images/footer-logo.svg" alt="Тревелон туроператор" class="logo__img">
+                  </a>
+                </div>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Про нас</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Країни</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Турагентам</a>
+                  </li>
+                </ul>
+
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Туристам</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Група компаній</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Люди</a>
+                  </li>
+                </ul>
+
+
+                <div class="footer__contacts">
+                  <h4 class="footer__title">Наші контакти:</h4>
+                  <ul class="footer__contacts-list">
+                    <li class="footer__contacts-item">
+                      <a href="tel:+380445006070" class="footer__contacts-link">
+                        +38 044 500 60 70
+                      </a>
+                    </li>
+                    <li class="footer__contacts-item">
+                      <a href="tel:+380445006071" class="footer__contacts-link">
+                        +38 044 500 60 71
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="footer__social">
+                  <h4 class="footer__title">Слідкуйте за нами:</h4>
+                  <ul class="footer__social-list">
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link">
+                        <img src="images/footer-fb.svg" alt="Facebook">
+                      </a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link">
+                        <img src="images/footer-ig.svg" alt="Instagram">
+                      </a>
+                    </li>
+                    <li class="footer__social-item">
+                      <a href="#" class="footer__social-link">
+                        <img src="images/footer-tg.png" alt="Telegram">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+              <div class="footer__bottom">
+                <p class="footer__copyright">
+                  © Copyrights 2024 ТОВ "Транспортал"
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
