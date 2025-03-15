@@ -3858,6 +3858,9 @@ h2 {
     background-color: #242222;
 
   }
+    .advantages h2::after{
+      right: -14px;;
+    }
 
   .burger-menu {
     width: 100%;
